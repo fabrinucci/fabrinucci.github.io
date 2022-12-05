@@ -5,7 +5,17 @@
 }
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --primary-font: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --secondary-font: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  --dark-primary: #2C73D2;
+  --dark-secondary: #59769b;
+  --light-primary: #d2f1ef;
+  --light-secondary: #8ab379;
+  --dark-grey: #545353;
+  --light-grey: #c5c5c5;
+  --white: #fff;
+  --black: #0a0a0a;
 }
 
 li {
