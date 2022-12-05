@@ -5,17 +5,20 @@
 }
 
 :root {
-  --primary-font: Inter, Avenir, Helvetica, Arial, sans-serif;
-  --secondary-font: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --primary-font: 'Montserrat', sans-serif;
 
-  --dark-primary: #2C73D2;
+  --dark-primary: #2a66b4;
   --dark-secondary: #59769b;
-  --light-primary: #d2f1ef;
+  --light-primary: #dae1e0;
   --light-secondary: #8ab379;
   --dark-grey: #545353;
   --light-grey: #c5c5c5;
   --white: #fff;
   --black: #0a0a0a;
+}
+
+body {
+  font-family: var(--primary-font);
 }
 
 li {

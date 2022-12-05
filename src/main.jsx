@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { I18nextProvider } from 'react-i18next';
 
 import i18next from './utils/i18Next';
-import App from './App';
-import './index.css';
+import App from './components/App';
 import { ThemeProvider } from './context/ThemeContext';
+
+import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
