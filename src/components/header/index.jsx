@@ -11,7 +11,7 @@ export const Header = () => {
   const [text] = useTranslation('global');
 
   return (
-    <header className={styles.Header}>
+    <header id='home' className={styles.Header}>
       <section className={styles.head}>
         <div className={styles.info}>
           <h4>{text('header.greeting')}</h4>

@@ -3,7 +3,7 @@
   border-radius: 6px;
   padding: 15px 20px;
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -25,7 +25,6 @@
 
 @media screen and (min-width: 650px) {
   .button {
-    font-size: 1.6rem;
     padding: 20px 30px;
     transition: var(--transition);
   }

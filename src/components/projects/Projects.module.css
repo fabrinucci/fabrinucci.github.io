@@ -1,0 +1,72 @@
+.Projects {
+  margin-top: 50px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Projects h4 {
+  color: var(--light-grey);
+}
+
+.Projects h2 {
+  color: var(--dark-secondary);
+  margin-bottom: 50px;
+}
+
+.Cards {
+  display: grid;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Cards article {
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 40px 20px;
+  border-radius: 30px;
+  transition: var(--transition);
+}
+
+.Cards article:hover {
+  border-color: var(--dark-secondary);
+  background: transparent;
+}
+
+.Cards img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.CardInfo h3 {
+  margin: 20px 0;
+}
+
+.CardInfo button:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  .Cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

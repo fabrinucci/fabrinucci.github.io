@@ -7,10 +7,10 @@
 :root {
   --primary-font: 'Montserrat', sans-serif;
 
-  --transition: all .2s ease-in;
+  --transition: all .3s ease-in;
 
-  --dark-primary: #292968;
-  --dark-secondary: #59769b;
+  --dark-primary: #1d1d5f;
+  --dark-secondary: #247ea1;
   --light-primary: #dae1e0;
   --light-secondary: #8ab379;
   --dark-grey: #545353;

@@ -27,3 +27,48 @@ export const navigation = [
     Icon: BiMessageDetail,
   },
 ] 
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 2,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 3,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 4,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 5,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 6,
+    title: 'Dash',
+    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
+    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+]
