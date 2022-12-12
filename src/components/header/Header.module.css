@@ -1,0 +1,61 @@
+.Header {
+  padding: 15px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.head h3,
+.head h4 {
+  color: var(--light-grey);
+}
+
+.head h1 {
+  margin: 10px 0;
+  line-height: normal;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.body img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+
+.body p {
+  margin: 10px 0 20px 0;
+  letter-spacing: .1em;
+  color: var(--light-grey);
+}
+
+@media screen and (min-width: 650px) {
+  .Header {
+    width: 80%;
+  }
+
+  .body {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .Header {
+    width: 70%;
+  }
+}

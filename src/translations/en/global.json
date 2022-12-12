@@ -1,8 +1,22 @@
 {
   "header": {
-    "hello-world": "Hello World"
+    "greeting": "Hello, I'm",
+    "name": "Fabrizio Nucci",
+    "work": "React Developer",
+    "about": "About me",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia quis sunt unde hic repellat consequuntur quae commodi ad ipsum iure ex iste, minus accusantium quisquam inventore nobis corrupti tenetur!"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
   },
   "main": {
-    "description": "Hi, I'm Fabrizio Nucci"
+  },
+  "buttons": {
+    "cv": "Download CV",
+    "contact": "Let's talk",
+    "projects": "Projects"
   }
 }

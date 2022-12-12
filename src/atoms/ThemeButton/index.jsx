@@ -9,6 +9,7 @@ export const ThemeButton = () => {
   const [{isDark}, toggleTheme] = useContext(ThemeContext);
 
   return (
+    <div>
     <button 
       onClick={ toggleTheme }
       className={
@@ -19,5 +20,7 @@ export const ThemeButton = () => {
       <RiSunLine />
       <RiMoonFill />
     </button>
+
+    </div>
   )
 }

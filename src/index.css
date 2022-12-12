@@ -7,18 +7,32 @@
 :root {
   --primary-font: 'Montserrat', sans-serif;
 
-  --dark-primary: #2a66b4;
+  --transition: all .2s ease-in;
+
+  --dark-primary: #292968;
   --dark-secondary: #59769b;
   --light-primary: #dae1e0;
   --light-secondary: #8ab379;
   --dark-grey: #545353;
-  --light-grey: #c5c5c5;
-  --white: #fff;
+  --light-grey: #bdbbbb;
+  --white: #f5f2f2;
   --black: #0a0a0a;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
   font-family: var(--primary-font);
+  line-height: 1.8;
+  min-width: 320px;
+  background-color: var(--dark-primary);
 }
 
 li {
@@ -27,4 +41,51 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1,h2,h3, h4, p {
+  color: var(--white);
+}
+
+@media screen and (min-width: 650px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  
+  h2 {
+    font-size: 3.6rem;
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+  }
+  
+  h4 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
 }
