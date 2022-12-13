@@ -3,6 +3,7 @@ import { Main } from './main';
 
 import styles from './App.module.css';
 import { Nav } from './nav/Nav';
+import { Footer } from './footer';
 
 const App = () => {
 
@@ -10,7 +11,8 @@ const App = () => {
     <div className={styles.App}>
       <Header />
       <Nav />
-      <Main />       
+      <Main />    
+      <Footer />   
     </div>
   )
 }

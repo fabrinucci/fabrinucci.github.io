@@ -1,0 +1,52 @@
+.Footer {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: var(--dark-secondary);
+  text-align: center;
+}
+
+.Footer h2 {
+  color: var(--dark-primary);
+  margin-bottom: 50px;
+}
+
+.Footer ul {
+  margin-bottom: 50px;
+}
+
+.Footer ul a:focus {
+  outline: 2px solid var(--dark-primary);
+  border-radius: 2px;
+}
+
+
+.FooterNav {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.FooterNav a {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.Footer a {
+  color: var(--dark-primary);
+}
+
+@media screen and (min-width: 600px) {
+  .FooterNav {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .FooterNav a {
+    font-size: 1.8rem;
+  }
+
+  .FooterNav a:hover {
+    border-bottom: 2px solid var(--dark-primary);
+  }
+}
