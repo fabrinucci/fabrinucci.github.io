@@ -9,9 +9,9 @@ export const Main = () => {
 
   return (
     <main>
+      <Skills />
       <Projects />
-      {/* <Skills /> */}
-      {/* <Contact /> */}
+      <Contact />
     </main>
   )
 }

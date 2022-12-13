@@ -1,0 +1,119 @@
+.Contact h4 {
+  color: var(--grey);
+}
+
+.Contact h2 {
+  color: var(--dark-secondary);
+  margin-bottom: 70px;
+}
+
+.ContactContainer {
+  display: grid;
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+.ContactOptions article {
+  background-color: var(--dark-primary);
+  border: 1px solid var(--dark-primary);
+  border-radius: 10px;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  transition: var(--transition);
+}
+
+.ContactOptions article:hover {
+  border-color: var(--dark-secondary);
+  background-color: transparent;
+}
+
+.ContactOptions article:last-child {
+  margin: 0;
+}
+
+.ContactOptions h4 {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.ContactOptions a {
+  font-size: 1.4rem;
+}
+
+.ContactOptions a:hover {
+  filter: opacity(60%);
+}
+
+.ContactOptions a:focus {
+  outline: 2px solid var(--dark-secondary);
+  border-radius: 2px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+  display: block;
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--white);
+  transition: all .2s ease;
+}
+
+.ContactForm input:focus,
+.ContactForm textarea:focus {
+  outline: 3px solid var(--dark-secondary);
+  background-color: var(--grey);
+}
+
+
+.ContactForm input:hover,
+.ContactForm textarea:hover {
+  background-color: var(--grey);
+}
+
+input::placeholder,
+textarea::placeholder  {
+  color: var(--black);
+  font-family: var(--primary-font);
+}
+
+.ContactForm button {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .ContactContainer {
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    width: 80%;
+  }
+
+  .ContactForm input,
+  .ContactForm textarea {
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .ContactForm input,
+  .ContactForm textarea {
+    padding: 20px 15px;
+    font-size: 1.6rem;
+  }
+
+  .ContactForm button {
+    display: block;
+    width: auto;
+  }
+}

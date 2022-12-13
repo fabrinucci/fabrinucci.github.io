@@ -1,11 +1,5 @@
-.Projects {
-  margin-top: 50px;
-  padding: 20px 0;
-  text-align: center;
-}
-
 .Projects h4 {
-  color: var(--light-grey);
+  color: var(--grey);
 }
 
 .Projects h2 {
@@ -21,8 +15,8 @@
 }
 
 .Cards article {
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: var(--dark-primary);
+  border: 1px solid var(--dark-primary);
   padding: 40px 20px;
   border-radius: 30px;
   transition: var(--transition);
@@ -42,7 +36,7 @@
   margin: 20px 0;
 }
 
-.CardInfo button:focus {
+.CardInfo a:focus {
   outline: none;
 }
 

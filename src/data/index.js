@@ -1,5 +1,10 @@
-import { IoHomeOutline } from "react-icons/io5";
-import { BiBook, BiMessageDetail, BiStar } from "react-icons/bi";
+import { IoHomeOutline } from 'react-icons/io5';
+import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi';
+import { RiMailLine, RiTwitterLine, RiWhatsappLine } from 'react-icons/ri';
+
+const mail = 'fabrinuccidev@gmail.com';
+const twitter = 'FabrizioDev';
+const whatsapp = '+54 9 376 485-3252';
 
 export const navigation = [
   {
@@ -70,5 +75,29 @@ export const projects = [
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
     demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+]
+
+export const contact = [
+  {
+    id: 1,
+    Icon: RiMailLine,
+    title: 'Email',
+    contact: `${ mail }`,
+    href: `mailto:${ mail }`,
+  },
+  {
+    id: 2,
+    Icon: RiTwitterLine,
+    title: 'Twitter',
+    contact: `@${ twitter }`,
+    href: `https://twitter.com/${ twitter }`,
+  },
+  {
+    id: 3,
+    Icon: RiWhatsappLine,
+    title: 'Whatsapp',
+    contact: `${ whatsapp }`,
+    href: `https://api.whatsapp.com/send?phone=${ whatsapp }`,
   },
 ]

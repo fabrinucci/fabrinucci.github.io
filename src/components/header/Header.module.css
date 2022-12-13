@@ -11,7 +11,7 @@
 
 .head h3,
 .head h4 {
-  color: var(--light-grey);
+  color: var(--grey);
 }
 
 .head h1 {
@@ -41,7 +41,7 @@
 .body p {
   margin: 10px 0 20px 0;
   letter-spacing: .1em;
-  color: var(--light-grey);
+  color: var(--grey);
 }
 
 @media screen and (min-width: 650px) {

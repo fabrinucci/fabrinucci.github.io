@@ -13,7 +13,7 @@ export const Nav = () => {
           <li key={id}>
             <a className={styles.icontext} href={`#${name}`}>
               <div className={styles.iconContainer}>
-                <Icon className={styles.icon}/>
+                <Icon className={styles.icon} />
               </div>
               {/* <span className={styles.text}>{text(translation)}</span> */}
             </a>

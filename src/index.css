@@ -9,14 +9,18 @@
 
   --transition: all .3s ease-in;
 
-  --dark-primary: #1d1d5f;
-  --dark-secondary: #247ea1;
-  --light-primary: #dae1e0;
-  --light-secondary: #8ab379;
-  --dark-grey: #545353;
-  --light-grey: #bdbbbb;
+  --dark-background: #1a1b4b;
+  --dark-primary: #292a73;
+  --dark-secondary: #3a9efd;
+
+  --light-background: #C0FDFB;
+  --light-primary: #5D737E;
+  --light-secondary: #64B6AC;
+
+  --grey: #bdbbbb;
+
   --white: #f5f2f2;
-  --black: #0a0a0a;
+  --black: #000;
 }
 
 html {
@@ -32,7 +36,7 @@ body {
   font-family: var(--primary-font);
   line-height: 1.8;
   min-width: 320px;
-  background-color: var(--dark-primary);
+  background-color: var(--dark-background);
 }
 
 li {
@@ -66,6 +70,12 @@ p {
 
 h1,h2,h3, h4, p {
   color: var(--white);
+}
+
+.container {
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 @media screen and (min-width: 650px) {

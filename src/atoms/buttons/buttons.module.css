@@ -14,13 +14,13 @@
 .PrimaryButton {
   background: var(--dark-secondary);
   border-color: var(--dark-secondary);
-  color: white;
+  color: var(--dark-background);
 }
 
 .SecondaryButton {
   background: transparent;
   border-color: var(--dark-secondary);
-  color: white;
+  color: var(--white);
 }
 
 @media screen and (min-width: 650px) {
