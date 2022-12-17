@@ -4,7 +4,7 @@ import global_es from '../translations/es/global.json';
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'en',
+  lng: localStorage.getItem('language') || 'en',
   resources: {
     en: {
       global: global_en

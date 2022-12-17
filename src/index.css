@@ -11,7 +11,7 @@
 
   --dark-background: #1a1b4b;
   --dark-primary: #292a73;
-  --dark-secondary: #3a9efd;
+  --dark-secondary: #52c3f8;
 
   --light-background: #C0FDFB;
   --light-primary: #5D737E;
@@ -78,6 +78,34 @@ h1,h2,h3, h4, p {
   text-align: center;
 }
 
+.btn {
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.btn:focus {
+  outline: 2px solid var(--white);
+  border-radius: 2px;
+}
+
+.btn-primary {
+  background: var(--dark-secondary);
+  border-color: var(--dark-secondary);
+  color: var(--dark-background);
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: var(--dark-secondary);
+  color: var(--white);
+}
+
+
 @media screen and (min-width: 650px) {
   h1 {
     font-size: 4.2rem;
@@ -98,4 +126,20 @@ h1,h2,h3, h4, p {
   p {
     font-size: 2rem;
   }
+
+
+  .btn {
+    padding: 20px 30px;
+    transition: var(--transition);
+  }
+
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--dark-primary);
+  }
 }
+
+
+

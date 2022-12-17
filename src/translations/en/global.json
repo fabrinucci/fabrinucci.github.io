@@ -12,11 +12,33 @@
     "skills": "Skills",
     "contact": "Contact"
   },
-  "main": {
+  "projects": {
+    "title": "Projects",
+    "subtitle": "My recent works",
+    "demo": "View project demo",
+    "source": "View source code",
+    "project1": "Bata Bit",
+    "project2": "Patient Manager",
+    "project3": "Crypto App",
+    "project4": "Dev Finder",
+    "project5": "Bata Bit",
+    "project6": "Pokémon App"
+
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "sendMessage": "Send a message",
+    "name": "Your full name",
+    "email": "Your email",
+    "message": "Your message",
+    "messageBtn": "Send message"
   },
   "buttons": {
     "cv": "Download CV",
     "contact": "Let's talk",
-    "projects": "Projects"
+    "projects": "Projects",
+    "translateEn": "Translate to English",
+    "translateEs": "Translate to Spanish"
   }
 }

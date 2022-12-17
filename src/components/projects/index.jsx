@@ -1,38 +1,40 @@
-import { PrimaryButton, SecondaryButton } from '../../atoms/buttons';
-import styles from './Projects.module.css';
-
+import { useTranslation } from 'react-i18next';
 import { projects } from '../../data';
 
+import styles from './Projects.module.css';
+
 export const Projects = () => {
+  const [text] = useTranslation('global');
+  
   return (
     <section className={`${styles.Projects} container`} id='projects'>
-      <h4>My recent works</h4>
-      <h2>Projects</h2>
+      <h4>{text('projects.subtitle')}</h4>
+      <h2>{text('projects.title')}</h2>
       <div className={styles.Cards}>
         {
           projects.map(({ id, title, img, gitUrl, demoUrl }) => (
             <article key={ id }>
-              <img src={ img } alt={ title } />
+              <img src={ img } alt={ text(title) } />
               <div className={styles.CardInfo}>
-                <h3>{ title }</h3>
+                <h3>{ text(title) }</h3>
                 <div className={styles.buttons}>
                   <a 
+                    className='btn btn-secondary'
                     href={ gitUrl } 
                     target="_blank" 
                     rel="noopener noreferrer"
+                    aria-label={text('projects.source')}
                   >
-                    <SecondaryButton>
-                      GitHub
-                    </SecondaryButton>
+                    GitHub
                   </a>
                   <a 
+                    className='btn btn-primary'
                     href={ demoUrl } 
                     target="_blank" 
                     rel="noopener noreferrer"
+                    aria-label={text('projects.demo')}
                   >
-                    <PrimaryButton>
-                      Demo
-                    </PrimaryButton>
+                    Demo
                   </a>
                 </div>
               </div>

@@ -2,7 +2,7 @@
   background: rgba(0, 0, 0, .5);
   width: max-content;
   display: block;
-  padding: 5px 15px;
+  padding: 10px 20px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -14,26 +14,33 @@
 
 .NavMenu ul {
   display: flex;
-  /* gap: 5px; */
+  gap: 10px;
 }
 
 .NavMenu a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3px;
+  padding: 10px;
   border-radius: 50%;
   color: var(--white);
+  transition: var(--transition);;
 }
 
-.iconContainer {
-  padding: 10px;
-  border-radius: 50%; 
-  transition: var(--transition);
-}
-
-.iconContainer:hover {
+.NavMenu a:hover {
   background: rgba(0, 0, 0, 0.6);
+}
+
+.active {
+  background-color: var(--dark-secondary);
+}
+
+.active .icon {
+  color: var(--dark-background);
+}
+
+.active:hover .icon {
+  color: var(--white);
 }
 
 .icon {
@@ -48,4 +55,11 @@
   .text {
     font-size: 1.3rem;
   }
+}
+
+@media screen and (min-width: 1000px) {
+  .NavMenu a {
+    padding: 15px;
+  }
+  
 }

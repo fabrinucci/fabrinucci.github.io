@@ -1,6 +1,6 @@
 {
   "header": {
-    "greeting": "Hola, me llamo",
+    "greeting": "Hola, soy",
     "name": "Fabrizio Nucci",
     "work": "React Developer",
     "about": "Sobre mí",
@@ -12,11 +12,32 @@
     "skills": "Habilidades",
     "contact": "Contacto"
   },
-  "main": {
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Mis trabajos recientes",
+    "demo": "Ver demo del proyecto",
+    "source": "Ver código fuente",
+    "project1": "Bata Bit",
+    "project2": "Administrador de Pacientes",
+    "project3": "App Criptomonedas",
+    "project4": "Dev Finder",
+    "project5": "Bata Bit",
+    "project6": "Aplicación Pokémon"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en contacto conmigo",
+    "sendMessage": "Mándame un mensaje",
+    "name": "Tu nombre completo",
+    "email": "Tu correo electrónico",
+    "message": "Tu mensaje",
+    "messageBtn": "Enviar mensaje"
   },
   "buttons": {
     "cv": "Descargar CV",
     "contact": "Contáctame",
-    "projects": "Proyectos"
+    "projects": "Proyectos",
+    "translateEn": "Traducir a Inglés",
+    "translateEs": "Traducir a Español"
   }
 }

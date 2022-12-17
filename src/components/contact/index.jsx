@@ -1,12 +1,15 @@
-import styles from "./Contact.module.css";
+import { useTranslation } from 'react-i18next';
+import styles from './Contact.module.css';
 import { contact } from '../../data';
-import { PrimaryButton } from '../../atoms/buttons'
 
 export const Contact = () => {
+
+  const [text] = useTranslation('global');
+
   return (
-    <section className={`${styles.Contact} container`} id="contact">
-      <h4>Get In Touch</h4>
-      <h2>Contact</h2>
+    <section className={`${styles.Contact} container`} id='contact'>
+      <h4>{text('contact.subtitle')}</h4>
+      <h2>{text('contact.title')}</h2>
       <div className={styles.ContactContainer}>
         <div className={styles.ContactOptions}>
           {
@@ -14,8 +17,13 @@ export const Contact = () => {
               <article key={id}>
                 <Icon className={styles.icon} />
                 <h4>{title}</h4>
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                  Send A Message
+                <a 
+                  href={href} 
+                  target='_blank' 
+                  rel='noopener noreferrer'
+                  aria-label={`${text('contact.sendMessage')} ${title}`}
+                >
+                  {text('contact.sendMessage')}
                 </a>
               </article>  
             ))
@@ -23,28 +31,28 @@ export const Contact = () => {
         </div>
         <form className={styles.ContactForm}>
           <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
+            type='text'
+            name='name'
+            placeholder={text('contact.name')}
             required
-            autoComplete="off"
+            autoComplete='off'
           />
           <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
+            type='email'
+            name='email'
+            placeholder={text('contact.email')}
             required
-            autoComplete="off"
+            autoComplete='off'
           />
           <textarea
-            name="message"
-            rows="7"
-            placeholder="Your Message"
+            name='message'
+            rows='7'
+            placeholder={text('contact.message')}
             required
           ></textarea>
-          <PrimaryButton>
-            Send Message
-          </PrimaryButton>
+          <button className='btn btn-primary'>
+            {text('contact.messageBtn')}
+          </button>
         </form>
       </div>
     </section>

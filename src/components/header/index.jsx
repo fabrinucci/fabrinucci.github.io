@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { PrimaryButton, SecondaryButton } from '../../atoms/buttons';
 import { SocialMedia } from '../../atoms/social';
+import { TranslationButton } from '../../atoms/TranslationButton';
 import styles from './Header.module.css';
 import me from '../../assets/me.jpg';
 
@@ -12,6 +12,9 @@ export const Header = () => {
 
   return (
     <header id='home' className={styles.Header}>
+      <div className={styles.buttonsContainer}>
+        <TranslationButton />
+      </div>
       <section className={styles.head}>
         <div className={styles.info}>
           <h4>{text('header.greeting')}</h4>
@@ -19,8 +22,12 @@ export const Header = () => {
           <h3>{text('header.work')}</h3>
         </div>
         <div className={styles.buttons}>
-          <SecondaryButton>{text('buttons.cv')}</SecondaryButton>
-          <PrimaryButton>{text('buttons.contact')}</PrimaryButton>
+          <a className='btn btn-secondary' href="#">
+            {text('buttons.cv')}
+          </a>
+          <a className='btn btn-primary' href="#contact">
+            {text('buttons.contact')}
+          </a>
         </div>
       </section>
       <section className={styles.body}>

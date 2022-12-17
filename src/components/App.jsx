@@ -1,19 +1,17 @@
 import { Header } from './header';
 import { Main } from './main';
-
-import styles from './App.module.css';
-import { Nav } from './nav/Nav';
+import { Nav } from './nav';
 import { Footer } from './footer';
 
 const App = () => {
 
   return (
-    <div className={styles.App}>
+    <>
       <Header />
       <Nav />
       <Main />    
       <Footer />   
-    </div>
+    </>
   )
 }
 
