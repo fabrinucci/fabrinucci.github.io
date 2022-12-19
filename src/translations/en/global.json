@@ -1,8 +1,8 @@
 {
   "header": {
-    "greeting": "Hello, I'm",
-    "name": "Fabrizio Nucci",
-    "work": "React Developer",
+    "greeting": "Hi there!",
+    "name": "I'm Fabrizio Nucci",
+    "work": "I am Web Developer",
     "about": "About me",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia quis sunt unde hic repellat consequuntur quae commodi ad ipsum iure ex iste, minus accusantium quisquam inventore nobis corrupti tenetur!"
   },

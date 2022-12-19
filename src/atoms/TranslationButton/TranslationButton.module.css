@@ -1,4 +1,3 @@
-
 .TranslationButton {
   cursor: pointer;
   border: none;
@@ -14,7 +13,7 @@
 }
 
 .TranslationButton:focus {
-  outline: 2px solid var(--white);
+  outline: 2px solid var(--bg-btn);
   border-radius: 2px;
   padding: 3px;
 }

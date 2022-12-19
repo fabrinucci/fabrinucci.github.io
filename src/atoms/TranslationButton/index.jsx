@@ -7,12 +7,6 @@ import es from '../../assets/ar.svg';
 export const TranslationButton = () => {
   const [text, i18n] = useTranslation('global');
 
-  // const handleTranslation = (language) => {
-  //   localStorage.setItem('language', language);
-  //   const data = localStorage.getItem('language');
-  //   i18n.changeLanguage(data);
-  // }
-
   const handleTranslation = (language) => {
     i18n.changeLanguage(language);
     localStorage.setItem('language', language);

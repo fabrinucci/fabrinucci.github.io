@@ -32,11 +32,11 @@
 }
 
 .active {
-  background-color: var(--dark-secondary);
+  background-color: var(--secondary-color);
 }
 
 .active .icon {
-  color: var(--dark-background);
+  color: var(--text-btn);
 }
 
 .active:hover .icon {

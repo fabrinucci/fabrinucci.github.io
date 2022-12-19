@@ -1,26 +1,23 @@
+import { RiMoonFill, RiSunLine } from 'react-icons/ri';
+
 import styles from './ThemeButton.module.css';
 
-import { RiSunLine, RiMoonFill } from 'react-icons/ri';
-import { useContext } from 'react';
-import { ThemeContext } from '../../context/ThemeContext';
+export const ThemeButton = ({theme, setTheme}) => {
 
-export const ThemeButton = () => {
-
-  const [{isDark}, toggleTheme] = useContext(ThemeContext);
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+  }
 
   return (
     <div>
-    <button 
-      onClick={ toggleTheme }
-      className={
-        `${styles.switch} 
-        ${isDark && styles.active}`
-      }
-    >
-      <RiSunLine />
-      <RiMoonFill />
-    </button>
-
+      <button 
+        onClick={ switchTheme }
+        className={ `${styles.switch} ${theme === 'dark' && styles.active}` }
+      >
+        <RiSunLine />
+        <RiMoonFill />
+      </button>
     </div>
   )
 }

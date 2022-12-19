@@ -4,7 +4,7 @@ import { RiMailLine, RiTwitterFill, RiWhatsappLine } from 'react-icons/ri';
 
 const mail = 'fabrinuccidev@gmail.com';
 const twitter = 'FabrizioDev';
-const whatsapp = '+54 9 376 485-3252';
+const whatsapp = '5493764853252';
 
 export const navigation = [
   {
@@ -98,6 +98,6 @@ export const contact = [
     Icon: RiWhatsappLine,
     title: 'Whatsapp',
     contact: `${ whatsapp }`,
-    href: `https://api.whatsapp.com/send?phone=${ whatsapp }`,
+    href: `https://wa.me/${ whatsapp }`,
   },
 ]

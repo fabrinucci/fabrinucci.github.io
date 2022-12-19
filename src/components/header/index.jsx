@@ -1,19 +1,23 @@
 import { useTranslation } from 'react-i18next';
 import { SocialMedia } from '../../atoms/social';
 import { TranslationButton } from '../../atoms/TranslationButton';
+import { ThemeButton } from '../../atoms/ThemeButton';
+
 import styles from './Header.module.css';
 import me from '../../assets/me.jpg';
 
-const avatar = 'https://xsgames.co/randomusers/assets/avatars/male/9.jpg';
-
-export const Header = () => {
+export const Header = ({theme, setTheme}) => {
 
   const [text] = useTranslation('global');
 
   return (
-    <header id='home' className={styles.Header}>
+    <header 
+      id='home' 
+      className={styles.Header}
+    >
       <div className={styles.buttonsContainer}>
         <TranslationButton />
+        <ThemeButton theme={theme} setTheme={setTheme}/>
       </div>
       <section className={styles.head}>
         <div className={styles.info}>

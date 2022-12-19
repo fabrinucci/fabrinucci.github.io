@@ -9,19 +9,41 @@
 
   --transition: all .3s ease-in;
 
-  --dark-background: #1a1b4b;
-  --dark-primary: #292a73;
-  --dark-secondary: #52c3f8;
+  --background: #e4e4ec;
+  --primary-color: #9e9ecd;
+  --secondary-color: #3b3c96;
 
-  --light-background: #C0FDFB;
-  --light-primary: #5D737E;
-  --light-secondary: #64B6AC;
+  --text-primary: #171717;
+  --text-secondary: #343434;
+  --text-btn: #fff;
 
-  --grey: #bdbbbb;
+  --bg-btn: #1a1b4b;
 
-  --white: #f5f2f2;
   --black: #000;
+  --white: #f5f2f2;
 }
+
+[data-theme='dark'] {
+  --background: #1a1b4b;
+  --primary-color: #292a73;
+  --secondary-color: #36ace3;
+
+  --text-primary: #f5f2f2;
+  --text-secondary: #bdbbbb;
+  --text-btn: #1a1b4b;
+
+  --bg-btn: #fff;
+}
+
+.theme-toggle i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  text-align: center;
+}
+
 
 html {
   font-size: 62.5%;
@@ -36,7 +58,11 @@ body {
   font-family: var(--primary-font);
   line-height: 1.8;
   min-width: 320px;
-  background-color: var(--dark-background);
+}
+
+.app {
+  background-color: var(--background);
+  transition: all .5s cubic-bezier(.48,.13,.44,.97);
 }
 
 li {
@@ -45,7 +71,7 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--text-primary);
 }
 
 h1 {
@@ -69,7 +95,7 @@ p {
 }
 
 h1,h2,h3, h4, p {
-  color: var(--white);
+  color: var(--text-primary);
 }
 
 .container {
@@ -89,20 +115,20 @@ h1,h2,h3, h4, p {
 }
 
 .btn:focus {
-  outline: 2px solid var(--white);
+  outline: 2px solid var(--bg-btn);
   border-radius: 2px;
 }
 
 .btn-primary {
-  background: var(--dark-secondary);
-  border-color: var(--dark-secondary);
-  color: var(--dark-background);
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--background);
 }
 
 .btn-secondary {
   background: transparent;
-  border-color: var(--dark-secondary);
-  color: var(--white);
+  border-color: var(--secondary-color);
+  color: var(--text-primary);
 }
 
 
@@ -135,11 +161,8 @@ h1,h2,h3, h4, p {
 
   .btn-primary:hover,
   .btn-secondary:hover {
-    background-color: var(--white);
-    border-color: var(--white);
-    color: var(--dark-primary);
+    background-color: var(--bg-btn);
+    border-color: var(--bg-btn);
+    color: var(--text-btn);
   }
 }
-
-
-

@@ -1,10 +1,10 @@
 .Contact h4 {
-  color: var(--grey);
+  color: var(--text-secondary);
   text-transform: capitalize;
 }
 
 .Contact h2 {
-  color: var(--dark-secondary);
+  color: var(--secondary-color);
   margin-bottom: 70px;
 }
 
@@ -16,17 +16,26 @@
 }
 
 .ContactOptions article {
-  background-color: var(--dark-primary);
-  border: 1px solid var(--dark-primary);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 10px;
   padding: 40px 10px;
   margin-bottom: 30px;
   transition: var(--transition);
 }
 
+.ContactOptions article h4,
+.ContactOptions article svg {
+  color: var(--text-primary);
+}
+
 .ContactOptions article:hover {
-  border-color: var(--dark-secondary);
+  border-color: var(--secondary-color);
   background-color: transparent;
+}
+
+.ContactOptions article a:hover {
+  color: var(--text-primary);
 }
 
 .ContactOptions article:last-child {
@@ -34,7 +43,7 @@
 }
 
 .ContactOptions h4 {
-  color: var(--white);
+  color: var(--text-primary);
   margin-bottom: 10px;
 }
 
@@ -42,22 +51,22 @@
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: capitalize;
-  color: var(--dark-secondary);
+  color: var(--secondary-color);
   transition: var(--transition);
 }
 
 .ContactOptions a:hover {
-  color: var(--white);
+  color: var(--text-primary);
 }
 
 .ContactOptions a:focus {
-  outline: 2px solid var(--dark-secondary);
+  outline: 2px solid var(--text-primary);
   border-radius: 2px;
 }
 
 .icon {
   font-size: 2.5rem;
-  color: var(--white);
+  color: var(--text-primary);
   margin-bottom: 10px;
 }
 
@@ -68,7 +77,7 @@
   padding: 15px 10px;
   margin-bottom: 20px;
   font-size: 1.4rem;
-  border: none;
+  border: 2px solid #1a1b4b;
   border-radius: 5px;
   background-color: var(--white);
   transition: all .2s ease;
@@ -77,14 +86,14 @@
 
 .ContactForm input:focus,
 .ContactForm textarea:focus {
-  outline: 3px solid var(--dark-secondary);
-  background-color: var(--grey);
+  outline: 3px solid var(--secondary-color);
+  background-color: #bdbbbb;
 }
 
 
 .ContactForm input:hover,
 .ContactForm textarea:hover {
-  background-color: var(--grey);
+  background-color: #bdbbbb;
 }
 
 input::placeholder,

@@ -1,12 +1,12 @@
 .Footer {
   margin-top: 50px;
   padding: 50px;
-  background-color: var(--dark-secondary);
+  background-color: var(--secondary-color);
   text-align: center;
 }
 
 .Footer h2 {
-  color: var(--dark-primary);
+  color: var(--text-btn);
   margin-bottom: 50px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .Footer ul a:focus {
-  outline: 2px solid var(--dark-primary);
+  outline: 2px solid var(--text-btn);
   border-radius: 2px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .Footer a {
-  color: var(--dark-primary);
+  color: var(--text-btn);
 }
 
 @media screen and (min-width: 600px) {
@@ -47,6 +47,6 @@
   }
 
   .FooterNav a:hover {
-    border-bottom: 2px solid var(--dark-primary);
+    border-bottom: 2px solid var(--text-btn)
   }
 }

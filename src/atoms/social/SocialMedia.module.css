@@ -9,7 +9,7 @@
 }
 
 .SocialList a:focus {
-  outline: 2px solid var(--white);
+  outline: 2px solid var(--bg-btn);
   border-radius: 2px;
 
 }

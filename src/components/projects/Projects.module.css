@@ -1,10 +1,10 @@
 .Projects h4 {
-  color: var(--grey);
+  color: var(--text-secondary);
   text-transform: capitalize;
 }
 
 .Projects h2 {
-  color: var(--dark-secondary);
+  color: var(--secondary-color);
   margin-bottom: 50px;
 }
 
@@ -16,15 +16,15 @@
 }
 
 .Cards article {
-  background-color: var(--dark-primary);
-  border: 1px solid var(--dark-primary);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   padding: 40px 20px;
   border-radius: 30px;
   transition: var(--transition);
 }
 
 .Cards article:hover {
-  border-color: var(--dark-secondary);
+  border-color: var(--secondary-color);
   background: transparent;
 }
 
@@ -35,6 +35,7 @@
 
 .CardInfo h3 {
   margin: 20px 0;
+  color: var(--text-primary);
 }
 
 .buttons {

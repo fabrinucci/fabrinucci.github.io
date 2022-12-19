@@ -1,5 +1,5 @@
 .switch {
-  background: #343D5B;
+  background: var(--secondary-color);
   border-radius: 1000px;
   border: none;
   position: relative;
@@ -16,7 +16,7 @@
   width: 35px;
   height: 35px;
   position: absolute;
-  background: #ffffff;
+  background: var(--white);
   top: 0;
   left: 0;
   right: unset;
@@ -28,8 +28,8 @@
 }
 
 .switch.active {
-  background: #d9a619;
-  color: #000;
+  background: rgb(199, 191, 191);
+  transition: all .3s ease-in;
 }
 
 .switch.active::after {
@@ -43,6 +43,11 @@
   line-height: 30px;
   display: block;
   background: none;
-  color: #fff;
+  color: var(--background);
   padding: 8px;
+}
+
+.switch:focus {
+  outline: 5px solid var(--bg-btn);
+  border-radius: 100px;
 }

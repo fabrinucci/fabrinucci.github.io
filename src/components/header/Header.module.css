@@ -18,18 +18,21 @@
 
 .head h3,
 .head h4 {
-  color: var(--grey);
+  color: var(--text-secondary);
 }
 
 .head h1 {
   margin: 10px 0;
-  line-height: normal;
+  line-height: 5rem;
+  color: var(--text-primary);
 }
 
 .buttons {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+  gap: 20px;
   margin-top: 20px;
 }
 
@@ -48,7 +51,7 @@
 .body p {
   margin: 10px 0 20px 0;
   letter-spacing: .1em;
-  color: var(--grey);
+  color: var(--text-secondary);
 }
 
 @media screen and (min-width: 650px) {
@@ -65,4 +68,13 @@
   .Header {
     width: 70%;
   }
+
+  .buttons {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
 }
