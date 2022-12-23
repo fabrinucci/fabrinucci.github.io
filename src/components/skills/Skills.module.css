@@ -1,0 +1,89 @@
+.Skills h4 {
+  color: var(--text-secondary);
+  text-transform: capitalize;
+}
+
+.Skills h2 {
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+.Card {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.Card:hover {
+  background-color: transparent;
+  border-color: var(--secondary-color);;
+}
+
+.Content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.Details {
+  display: flex;
+  gap: 10px;
+}
+
+.Details svg {
+  color: var(--secondary-color);
+  height: 20px;
+  width: auto;
+}
+
+
+.Details div {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+
+.Details h4 {
+  line-height: normal;
+}
+
+.Details small {
+  color: var(--text-secondary);
+  font-size: 1.3rem;
+}
+
+
+@media screen and (min-width: 400px) {
+  .Content {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Content {
+    gap: 50px;
+  }
+
+  .Card {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .Card {
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px;
+  }
+
+  .Details div {
+    gap: 15px;
+  }
+}

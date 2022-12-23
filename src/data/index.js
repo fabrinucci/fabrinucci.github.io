@@ -101,3 +101,36 @@ export const contact = [
     href: `https://wa.me/${ whatsapp }`,
   },
 ]
+
+export const experience = [
+  {
+    id: 1,
+    name: 'HTML',
+    level: 'skills.intermediate',
+  },
+  {
+    id: 2,
+    name: 'CSS',
+    level: 'skills.intermediate',
+  },
+  {
+    id: 3,
+    name: 'JavaScript',
+    level: 'skills.intermediate',
+  },
+  {
+    id: 4,
+    name: 'React',
+    level: 'skills.intermediate',
+  },
+  {
+    id: 5,
+    name: 'TypeScript',
+    level: 'skills.basic',
+  },
+  {
+    id: 6,
+    name: 'Node.js',
+    level: 'skills.basic',
+  },
+]

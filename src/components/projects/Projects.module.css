@@ -17,7 +17,7 @@
 
 .Cards article {
   background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   padding: 40px 20px;
   border-radius: 30px;
   transition: var(--transition);
@@ -44,7 +44,7 @@
   gap: 15px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   .Cards {
     grid-template-columns: repeat(2, 1fr);
     width: 85%;

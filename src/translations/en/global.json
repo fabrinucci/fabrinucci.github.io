@@ -12,6 +12,13 @@
     "skills": "Skills",
     "contact": "Contact"
   },
+  "skills": {
+    "title": "My Experience",
+    "subtitle": "What Skills I Have",
+    "basic": "Basic",
+    "intermediate": "Intermediate",
+    "expert": "Expert"
+  },
   "projects": {
     "title": "Projects",
     "subtitle": "My recent works",
@@ -23,7 +30,6 @@
     "project4": "Dev Finder",
     "project5": "Bata Bit",
     "project6": "Pokémon App"
-
   },
   "contact": {
     "title": "Contact",

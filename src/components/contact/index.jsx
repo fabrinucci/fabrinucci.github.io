@@ -1,6 +1,10 @@
+import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
+
 import styles from './Contact.module.css';
 import { contact } from '../../data';
+import { Form } from './Form';
 
 export const Contact = () => {
 
@@ -29,31 +33,9 @@ export const Contact = () => {
             ))
           }
         </div>
-        <form className={styles.ContactForm}>
-          <input
-            type='text'
-            name='name'
-            placeholder={text('contact.name')}
-            required
-            autoComplete='off'
-          />
-          <input
-            type='email'
-            name='email'
-            placeholder={text('contact.email')}
-            required
-            autoComplete='off'
-          />
-          <textarea
-            name='message'
-            rows='7'
-            placeholder={text('contact.message')}
-            required
-          ></textarea>
-          <button className='btn btn-primary'>
-            {text('contact.messageBtn')}
-          </button>
-        </form>
+
+        <Form styles={styles}/>
+        
       </div>
     </section>
   );
