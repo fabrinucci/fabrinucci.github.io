@@ -1,18 +1,18 @@
-import i18next from 'i18next';
-import global_en from '../translations/en/global.json';
-import global_es from '../translations/es/global.json';
+import i18next from 'i18next'
+import globaEn from '../translations/en/global.json'
+import globalEs from '../translations/es/global.json'
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: localStorage.getItem('language') || 'en',
+  lng: window.localStorage.getItem('language') || 'en',
   resources: {
     en: {
-      global: global_en
+      global: globaEn
     },
     es: {
-      global: global_es
+      global: globalEs
     }
   }
-});
+})
 
-export default i18next;
+export default i18next

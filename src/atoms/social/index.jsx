@@ -1,5 +1,5 @@
-import { FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
-import styles from './SocialMedia.module.css';
+import { FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa'
+import styles from './SocialMedia.module.css'
 
 export const SocialMedia = () => {
   return (
@@ -15,8 +15,8 @@ export const SocialMedia = () => {
         </a>
       </li>
       <li>
-        <a 
-          href='https://www.linkedin.com/in/fabrinucci/' 
+        <a
+          href='https://www.linkedin.com/in/fabrinucci/'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='LinkedIn'
@@ -35,5 +35,5 @@ export const SocialMedia = () => {
         </a>
       </li>
     </ul>
-  );
-};
+  )
+}

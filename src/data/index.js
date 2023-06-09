@@ -1,10 +1,10 @@
-import { IoHomeOutline } from 'react-icons/io5';
-import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi';
-import { RiMailLine, RiTwitterFill, RiWhatsappLine } from 'react-icons/ri';
+import { IoHomeOutline } from 'react-icons/io5'
+import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
+import { RiMailLine, RiTwitterFill, RiWhatsappLine } from 'react-icons/ri'
 
-const mail = 'fabrinuccidev@gmail.com';
-const twitter = 'FabrizioDev';
-const whatsapp = '5493764853252';
+const mail = 'fabrinuccidev@gmail.com'
+const twitter = 'FabrizioDev'
+const whatsapp = '5493764853252'
 
 export const navigation = [
   {
@@ -30,8 +30,8 @@ export const navigation = [
     name: 'contact',
     Icon: BiMessageDetail,
     translate: 'nav.contact'
-  },
-] 
+  }
+]
 
 export const projects = [
   {
@@ -60,14 +60,16 @@ export const projects = [
     title: 'projects.project4',
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
-    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demoUrl:
+      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
   },
   {
     id: 5,
     title: 'projects.project5',
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
-    demoUrl: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demoUrl:
+      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
   },
   {
     id: 6,
@@ -75,7 +77,7 @@ export const projects = [
     img: 'https://i.imgur.com/Aq7BfmY.png',
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app-old-version',
     demoUrl: 'https://pokemon-app-fn.vercel.app/'
-  },
+  }
 ]
 
 export const contact = [
@@ -83,54 +85,54 @@ export const contact = [
     id: 1,
     Icon: RiMailLine,
     title: 'Email',
-    contact: `${ mail }`,
-    href: `mailto:${ mail }`,
+    contact: `${mail}`,
+    href: `mailto:${mail}`
   },
   {
     id: 2,
     Icon: RiTwitterFill,
     title: 'Twitter',
-    contact: `@${ twitter }`,
-    href: `https://twitter.com/${ twitter }`,
+    contact: `@${twitter}`,
+    href: `https://twitter.com/${twitter}`
   },
   {
     id: 3,
     Icon: RiWhatsappLine,
     title: 'Whatsapp',
-    contact: `${ whatsapp }`,
-    href: `https://wa.me/${ whatsapp }`,
-  },
+    contact: `${whatsapp}`,
+    href: `https://wa.me/${whatsapp}`
+  }
 ]
 
 export const experience = [
   {
     id: 1,
     name: 'HTML',
-    level: 'skills.intermediate',
+    level: 'skills.intermediate'
   },
   {
     id: 2,
     name: 'CSS',
-    level: 'skills.intermediate',
+    level: 'skills.intermediate'
   },
   {
     id: 3,
     name: 'JavaScript',
-    level: 'skills.intermediate',
+    level: 'skills.intermediate'
   },
   {
     id: 4,
     name: 'React',
-    level: 'skills.intermediate',
+    level: 'skills.intermediate'
   },
   {
     id: 5,
     name: 'TypeScript',
-    level: 'skills.basic',
+    level: 'skills.basic'
   },
   {
     id: 6,
     name: 'Node.js',
-    level: 'skills.basic',
-  },
+    level: 'skills.basic'
+  }
 ]
