@@ -1,7 +1,14 @@
 {
-  "name": "my-portfolio",
-  "private": true,
+  "name": "fabrinucci-portfolio",
   "version": "0.0.1",
+  "description": "My Personal Portfolio",
+  "author": "Fabrizio Nucci",
+  "license": "MIT",
+  "homepage": "https://github.com/fabrinucci/fabrinucci.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrinucci/fabrinucci.github.io.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
