@@ -5,9 +5,17 @@ import { navigation } from '../../data'
 import styles from './NavMenu.module.css'
 
 export const Nav = () => {
+  const [isActive, setIsActive] = useState('')
   const [text] = useTranslation('global')
 
-  const [isActive, setIsActive] = useState('')
+  const handleNavigation = (event, sectionName) => {
+    event.preventDefault()
+    setIsActive(sectionName)
+    const targetElement = document.querySelector(sectionName)
+    targetElement.scrollIntoView({
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <nav className={styles.NavMenu}>
@@ -15,7 +23,7 @@ export const Nav = () => {
         {navigation.map(({ id, name, Icon, translate }) => (
           <li key={id}>
             <a
-              onClick={() => setIsActive(`#${name}`)}
+              onClick={(event) => handleNavigation(event, `#${name}`)}
               className={isActive === `#${name}` ? styles.active : ''}
               href={`#${name}`}
               rel='noopener noreferrer'
