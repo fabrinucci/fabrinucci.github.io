@@ -34,8 +34,21 @@
 }
 
 .CardInfo h3 {
-  margin: 20px 0;
+  margin: 10px 0;
   color: var(--text-primary);
+}
+
+.CardInfo .InfoTech {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.CardInfo .tech {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-secondary);
 }
 
 .buttons {

@@ -39,21 +39,24 @@ export const projects = [
     title: 'projects.project1',
     img: 'https://i.imgur.com/36yMPCK.png',
     gitUrl: 'https://github.com/fabrinucci/bata-bit',
-    demoUrl: 'https://bata-bit-bosti.netlify.app'
+    demoUrl: 'https://bata-bit-bosti.netlify.app',
+    technologies: ['Html', 'Css']
   },
   {
     id: 2,
     title: 'projects.project2',
     img: 'https://i.imgur.com/oy7wkG0.png',
     gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
-    demoUrl: 'https://app-citas-bosti.netlify.app/'
+    demoUrl: 'https://app-citas-bosti.netlify.app/',
+    technologies: ['React']
   },
   {
     id: 3,
     title: 'projects.project3',
     img: 'https://i.imgur.com/yDOxg4u.png',
     gitUrl: 'https://github.com/fabrinucci/My-crypto-app-react',
-    demoUrl: 'https://bosti-react-crypto.netlify.app/'
+    demoUrl: 'https://bosti-react-crypto.netlify.app/',
+    technologies: ['React']
   },
   {
     id: 4,
@@ -61,7 +64,8 @@ export const projects = [
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
     demoUrl:
-      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma',
+    technologies: ['React', 'Material UI']
   },
   {
     id: 5,
@@ -69,14 +73,16 @@ export const projects = [
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
     demoUrl:
-      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma',
+    technologies: ['React']
   },
   {
     id: 6,
     title: 'projects.project6',
     img: 'https://i.imgur.com/Aq7BfmY.png',
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app-old-version',
-    demoUrl: 'https://pokemon-app-fn.vercel.app/'
+    demoUrl: 'https://pokemon-app-fn.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'NextUI']
   }
 ]
 

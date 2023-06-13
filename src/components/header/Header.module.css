@@ -7,6 +7,7 @@
 .buttonsContainer {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 15px;
   margin-top: 20px;
 }
@@ -41,16 +42,28 @@
   text-align: center;
 }
 
+.body .figureContainer {
+  margin: 15px 0;
+}
+
+.body figure {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #b8b7b7;
+  margin: 0 auto;
+}
+
 .body img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  margin: 15px 0;
+  border: 3px solid var(--text-secondary);
 }
 
 .body p {
   margin: 10px 0 20px 0;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: var(--text-secondary);
 }
 
@@ -76,5 +89,4 @@
     margin-top: 20px;
     width: 100%;
   }
-  
 }

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { SocialMedia } from '../../atoms/social'
-import { TranslationButton } from '../../atoms/TranslationButton'
+import { TranslationButtons } from '../../atoms/TranslationButtons'
 import { ThemeButton } from '../../atoms/ThemeButton'
 
 import styles from './Header.module.css'
@@ -12,7 +12,8 @@ export const Header = ({ theme, setTheme }) => {
   return (
     <header id='home' className={styles.Header}>
       <div className={styles.buttonsContainer}>
-        <TranslationButton />
+        <TranslationButtons />
+
         <ThemeButton theme={theme} setTheme={setTheme} />
       </div>
       <section className={styles.head}>
@@ -31,9 +32,11 @@ export const Header = ({ theme, setTheme }) => {
         </div>
       </section>
       <section className={styles.body}>
-        <figure>
-          <img src={me} alt='' />
-        </figure>
+        <div className={styles.figureContainer}>
+          <figure>
+            <img src={me} alt='My profile photo' />
+          </figure>
+        </div>
         <div className={styles.about}>
           <h3>{text('header.about')}</h3>
           <p>{text('header.description')}</p>

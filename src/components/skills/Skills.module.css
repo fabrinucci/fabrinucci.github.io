@@ -18,7 +18,7 @@
 
 .Card:hover {
   background-color: transparent;
-  border-color: var(--secondary-color);;
+  border-color: var(--secondary-color);
 }
 
 .Content {
@@ -39,7 +39,6 @@
   width: auto;
 }
 
-
 .Details div {
   display: flex;
   flex-direction: column;
@@ -54,8 +53,8 @@
 .Details small {
   color: var(--text-secondary);
   font-size: 1.3rem;
+  font-weight: 500;
 }
-
 
 @media screen and (min-width: 400px) {
   .Content {
@@ -74,7 +73,6 @@
     margin: 0 auto;
     padding: 50px;
   }
-
 }
 @media screen and (min-width: 1000px) {
   .Card {
