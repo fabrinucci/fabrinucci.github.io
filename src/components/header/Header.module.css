@@ -14,11 +14,10 @@
 
 .head {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
-.head h3,
-.head h4 {
+.head h3 {
   color: var(--text-secondary);
 }
 
@@ -43,7 +42,7 @@
 }
 
 .body .figureContainer {
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 .body figure {
@@ -61,7 +60,7 @@
   border: 3px solid var(--text-secondary);
 }
 
-.body p {
+.about p {
   margin: 10px 0 20px 0;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
@@ -88,5 +87,16 @@
     justify-content: center;
     margin-top: 20px;
     width: 100%;
+  }
+
+  .about p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about p {
+    margin: 10px auto 20px auto;
+    width: 80%;
   }
 }

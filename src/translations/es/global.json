@@ -1,8 +1,7 @@
 {
   "header": {
-    "greeting": "¡Hola, que tal!",
-    "name": "Me llamo Fabrizio Nucci",
-    "work": "Soy Desarrollador Web",
+    "name": "Soy Fabrizio Nucci",
+    "work": "Desarrollador Web",
     "about": "Sobre mí",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia quis sunt unde hic repellat consequuntur quae commodi ad ipsum iure ex iste, minus accusantium quisquam inventore nobis corrupti tenetur!"
   },

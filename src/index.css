@@ -7,14 +7,14 @@
 :root {
   --primary-font: 'Montserrat', sans-serif;
 
-  --transition: all .3s ease-in;
+  --transition: all 0.3s ease-in;
 
-  --background: #e4e4ec;
+  --background: #ccccf1;
   --primary-color: #9e9ecd;
-  --secondary-color: #3b3c96;
+  --secondary-color: #3f41ae;
 
-  --text-primary: #171717;
-  --text-secondary: #343434;
+  --text-primary: #100e31;
+  --text-secondary: #2c2b47;
   --text-btn: #fff;
 
   --bg-btn: #1a1b4b;
@@ -28,11 +28,11 @@
   --primary-color: #292a73;
   --secondary-color: #36ace3;
 
-  --text-primary: #f5f2f2;
-  --text-secondary: #bdbbbb;
+  --text-primary: #c6c7ff;
+  --text-secondary: #a6a6c2;
   --text-btn: #1a1b4b;
 
-  --bg-btn: #fff;
+  --bg-btn: #c6c7ff;
 }
 
 .theme-toggle i {
@@ -43,7 +43,6 @@
 .theme-toggle {
   text-align: center;
 }
-
 
 html {
   font-size: 62.5%;
@@ -62,7 +61,7 @@ body {
 
 .app {
   background-color: var(--background);
-  transition: all .5s cubic-bezier(.48,.13,.44,.97);
+  transition: all 0.5s cubic-bezier(0.48, 0.13, 0.44, 0.97);
 }
 
 li {
@@ -75,11 +74,11 @@ a {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -87,14 +86,18 @@ h3 {
 }
 
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
-h1,h2,h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   color: var(--text-primary);
 }
 
@@ -131,28 +134,26 @@ h1,h2,h3, h4, p {
   color: var(--text-primary);
 }
 
-
 @media screen and (min-width: 650px) {
   h1 {
-    font-size: 4.2rem;
+    font-size: 3.5rem;
   }
-  
+
   h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
-  
+
   h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
-  
+
   h4 {
     font-size: 2rem;
   }
-  
+
   p {
     font-size: 2rem;
   }
-
 
   .btn {
     padding: 20px 30px;

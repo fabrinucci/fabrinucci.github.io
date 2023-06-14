@@ -18,7 +18,6 @@ export const Header = ({ theme, setTheme }) => {
       </div>
       <section className={styles.head}>
         <div className={styles.info}>
-          <h4>{text('header.greeting')}</h4>
           <h1>{text('header.name')}</h1>
           <h3>{text('header.work')}</h3>
         </div>
