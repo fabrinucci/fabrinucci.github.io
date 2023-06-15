@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
-
 import { contact } from '../../data'
 import { Form } from './Form'
+
 import styles from './Contact.module.css'
 
 export const Contact = () => {

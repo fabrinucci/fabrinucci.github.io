@@ -5,7 +5,7 @@
 
 .Contact h2 {
   color: var(--secondary-color);
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .ContactContainer {
@@ -80,7 +80,7 @@
   border: 2px solid #1a1b4b;
   border-radius: 5px;
   background-color: var(--white);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   resize: none;
   font-family: var(--primary-font);
 }
@@ -91,14 +91,13 @@
   background-color: #cfcdcd;
 }
 
-
 .ContactForm input:hover,
 .ContactForm textarea:hover {
   background-color: #cfcdcd;
 }
 
 input::placeholder,
-textarea::placeholder  {
+textarea::placeholder {
   color: var(--black);
   font-family: var(--primary-font);
   text-transform: capitalize;
@@ -121,10 +120,8 @@ textarea::placeholder  {
   .ContactForm textarea {
     margin-bottom: 30px;
   }
-
 }
 @media screen and (min-width: 1000px) {
-
   .icon {
     margin-bottom: 15px;
   }

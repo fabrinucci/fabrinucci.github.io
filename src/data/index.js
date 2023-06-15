@@ -1,6 +1,16 @@
 import { IoHomeOutline } from 'react-icons/io5'
 import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
 import { RiMailLine, RiTwitterFill, RiWhatsappLine } from 'react-icons/ri'
+import {
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiTypescript,
+  SiReact,
+  SiMongodb
+} from 'react-icons/si'
 
 const mail = 'fabrinuccidev@gmail.com'
 const twitter = 'FabrizioDev'
@@ -110,35 +120,45 @@ export const contact = [
   }
 ]
 
-export const experience = [
+export const skills = [
   {
     id: 1,
     name: 'HTML',
-    level: 'skills.intermediate'
+    Icon: SiHtml5
   },
   {
     id: 2,
     name: 'CSS',
-    level: 'skills.intermediate'
+    Icon: SiCss3
   },
   {
     id: 3,
     name: 'JavaScript',
-    level: 'skills.intermediate'
+    Icon: SiJavascript
   },
   {
     id: 4,
     name: 'React',
-    level: 'skills.intermediate'
+    Icon: SiReact
   },
   {
     id: 5,
     name: 'TypeScript',
-    level: 'skills.basic'
+    Icon: SiTypescript
   },
   {
     id: 6,
+    name: 'Next.js',
+    Icon: SiNextdotjs
+  },
+  {
+    id: 7,
     name: 'Node.js',
-    level: 'skills.basic'
+    Icon: SiNodedotjs
+  },
+  {
+    id: 8,
+    name: 'Mongodb',
+    Icon: SiMongodb
   }
 ]

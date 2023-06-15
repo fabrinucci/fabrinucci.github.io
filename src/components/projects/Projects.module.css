@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .Cards {
     grid-template-columns: repeat(3, 1fr);
   }

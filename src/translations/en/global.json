@@ -12,11 +12,8 @@
     "contact": "Contact"
   },
   "skills": {
-    "title": "My Experience",
-    "subtitle": "What Skills I Have",
-    "basic": "Basic",
-    "intermediate": "Intermediate",
-    "expert": "Expert"
+    "title": "Technologies",
+    "subtitle": "What Skills I Have"
   },
   "projects": {
     "title": "Projects",

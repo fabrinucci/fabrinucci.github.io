@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { SocialMedia } from '../../atoms/social'
+
 import styles from './Footer.module.css'
 
 export const Footer = () => {

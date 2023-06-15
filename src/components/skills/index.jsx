@@ -1,7 +1,7 @@
-import { HiCheckBadge } from 'react-icons/hi2'
 import { useTranslation } from 'react-i18next'
+import { skills } from '../../data'
+
 import styles from './Skills.module.css'
-import { experience } from '../../data'
 
 export const Skills = () => {
   const [text] = useTranslation('global')
@@ -12,13 +12,10 @@ export const Skills = () => {
       <h2>{text('skills.title')}</h2>
       <div className={styles.Card}>
         <div className={styles.Content}>
-          {experience.map(({ id, name, level }) => (
+          {skills.map(({ id, name, Icon }) => (
             <article key={id} className={styles.Details}>
-              <HiCheckBadge />
-              <div>
-                <h4>{name}</h4>
-                <small>{text(level)}</small>
-              </div>
+              <Icon />
+              <h4>{name}</h4>
             </article>
           ))}
         </div>
