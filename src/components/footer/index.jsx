@@ -29,18 +29,6 @@ export const Footer = () => {
             </a>
           </li>
         ))}
-        {/* <li>
-          <a href='#home'>{text('nav.home')}</a>
-        </li>
-        <li>
-          <a href='#skills'>{text('nav.skills')}</a>
-        </li>
-        <li>
-          <a href='#projects'>{text('nav.projects')}</a>
-        </li>
-        <li>
-          <a href='#contact'>{text('nav.contact')}</a>
-        </li> */}
       </ul>
       <SocialMedia />
     </footer>
