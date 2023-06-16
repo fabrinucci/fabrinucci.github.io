@@ -9,6 +9,14 @@ import me from '../../assets/me.jpg'
 export const Header = ({ theme, setTheme }) => {
   const [text] = useTranslation('global')
 
+  const handleNavigation = (event) => {
+    event.preventDefault()
+    const targetElement = document.querySelector('#contact')
+    targetElement.scrollIntoView({
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <header id='home' className={styles.Header}>
       <div className={styles.buttonsContainer}>
@@ -25,7 +33,11 @@ export const Header = ({ theme, setTheme }) => {
           <a className='btn btn-secondary' href='#'>
             {text('buttons.cv')}
           </a>
-          <a className='btn btn-primary' href='#contact'>
+          <a
+            onClick={(event) => handleNavigation(event)}
+            className='btn btn-primary'
+            href='#contact'
+          >
             {text('buttons.contact')}
           </a>
         </div>
