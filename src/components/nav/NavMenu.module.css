@@ -1,5 +1,5 @@
 .NavMenu {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   width: max-content;
   display: block;
   padding: 10px 20px;
@@ -9,7 +9,6 @@
   bottom: 30px;
   border-radius: 30px;
   backdrop-filter: blur(10px);
-  
 }
 
 .NavMenu ul {
@@ -24,11 +23,7 @@
   padding: 10px;
   border-radius: 50%;
   color: var(--white);
-  transition: var(--transition);;
-}
-
-.NavMenu a:hover {
-  background: rgba(0, 0, 0, 0.6);
+  transition: var(--transition);
 }
 
 .active {
@@ -39,12 +34,8 @@
   color: var(--text-btn);
 }
 
-.active:hover .icon {
-  color: var(--white);
-}
-
 .icon {
-  font-size: 1.8rem;  
+  font-size: 1.8rem;
 }
 
 .text {
@@ -61,5 +52,12 @@
   .NavMenu a {
     padding: 15px;
   }
-  
+
+  .NavMenu a:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .active:hover .icon {
+    color: var(--white);
+  }
 }

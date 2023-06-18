@@ -46,31 +46,31 @@ export const navigation = [
 export const projects = [
   {
     id: 1,
-    title: 'projects.project1',
-    img: 'https://i.imgur.com/36yMPCK.png',
-    gitUrl: 'https://github.com/fabrinucci/bata-bit',
-    demoUrl: 'https://bata-bit-bosti.netlify.app',
-    technologies: ['Html', 'Css']
+    title: 'Favlog Movies',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687048207/Projects/favlog-movies.webp',
+    gitUrl: 'https://github.com/fabrinucci/react-favlog-movies',
+    demoUrl: '',
+    technologies: ['React', 'TypeScript', 'Tailwindcss']
   },
   {
     id: 2,
-    title: 'projects.project2',
-    img: 'https://i.imgur.com/oy7wkG0.png',
-    gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
-    demoUrl: 'https://app-citas-bosti.netlify.app/',
-    technologies: ['React']
+    title: 'BosStream',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687027270/Projects/bosstream.webp',
+    gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
+    demoUrl: 'https://next-streamer.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
     id: 3,
-    title: 'projects.project3',
-    img: 'https://i.imgur.com/yDOxg4u.png',
-    gitUrl: 'https://github.com/fabrinucci/My-crypto-app-react',
-    demoUrl: 'https://bosti-react-crypto.netlify.app/',
-    technologies: ['React']
+    title: 'Pokemon App',
+    img: 'https://i.imgur.com/Aq7BfmY.png',
+    gitUrl: 'https://github.com/fabrinucci/next-pokemon-app',
+    demoUrl: 'https://pokemon-app-fn.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'NextUI']
   },
   {
     id: 4,
-    title: 'projects.project4',
+    title: 'Dev Finder',
     img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
     demoUrl:
@@ -79,20 +79,20 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'projects.project5',
-    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
-    gitUrl: 'https://github.com/fabrinucci/fabrinucci.github.io',
-    demoUrl:
-      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma',
-    technologies: ['React']
+    title: 'Bata Bit',
+    img: 'https://i.imgur.com/36yMPCK.png',
+    gitUrl: 'https://github.com/fabrinucci/bata-bit',
+    demoUrl: 'https://bata-bit-bosti.netlify.app',
+    technologies: ['Html', 'Css']
   },
+
   {
     id: 6,
-    title: 'projects.project6',
-    img: 'https://i.imgur.com/Aq7BfmY.png',
-    gitUrl: 'https://github.com/fabrinucci/next-pokemon-app-old-version',
-    demoUrl: 'https://pokemon-app-fn.vercel.app/',
-    technologies: ['Next.js', 'TypeScript', 'NextUI']
+    title: 'Patient Manager',
+    img: 'https://i.imgur.com/oy7wkG0.png',
+    gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
+    demoUrl: 'https://app-citas-bosti.netlify.app/',
+    technologies: ['React']
   }
 ]
 

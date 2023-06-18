@@ -17,7 +17,7 @@ export const Projects = () => {
             <article key={id}>
               <img src={img} alt={text(title)} />
               <div className={styles.CardInfo}>
-                <h3>{text(title)}</h3>
+                <h3>{title}</h3>
                 <div className={styles.InfoTech}>
                   {technologies.map((tech) => (
                     <p key={tech} className={styles.tech}>

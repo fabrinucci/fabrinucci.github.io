@@ -29,7 +29,10 @@
 }
 
 .Cards img {
+  height: 190px;
+  width: 300px;
   max-width: 100%;
+  object-fit: cover;
   border-radius: 30px;
 }
 
@@ -41,12 +44,13 @@
 .CardInfo .InfoTech {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
 }
 
 .CardInfo .tech {
-  font-size: 16px;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--text-secondary);
 }
@@ -57,12 +61,23 @@
   gap: 15px;
 }
 
+@media screen and (min-width: 620px) {
+  .Cards img {
+    height: 215px;
+    width: 360px;
+  }
+}
+
 @media screen and (min-width: 720px) {
   .Cards {
     grid-template-columns: repeat(2, 1fr);
     width: 85%;
     margin: 0 auto;
     gap: 40px;
+  }
+
+  .CardInfo .tech {
+    font-size: 1.6rem;
   }
 
   .buttons {
