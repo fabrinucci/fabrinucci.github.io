@@ -55,7 +55,7 @@ export const projects = [
   {
     id: 2,
     title: 'BosStream',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687027270/Projects/bosstream.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687027270/Projects/bos-stream.webp',
     gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
     demoUrl: 'https://next-streamer.vercel.app/',
     technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
@@ -71,10 +71,9 @@ export const projects = [
   {
     id: 4,
     title: 'Dev Finder',
-    img: 'https://my-portfolio-react-bostidev.netlify.app/static/media/portfolio1.f5e72352e5aa840702b8.jpg',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687568844/Projects/dev-finder.webp',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
-    demoUrl:
-      'https://dribbble.com/shots/,17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma',
+    demoUrl: 'https://fabrinucci.github.io/react-dev-finder/',
     technologies: ['React', 'Material UI']
   },
   {
