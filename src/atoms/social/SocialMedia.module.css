@@ -6,26 +6,24 @@
 
 .SocialList a {
   font-size: 2rem;
+  transition: var(--transition);
 }
 
-.SocialList a:focus {
-  outline: 2px solid var(--bg-btn);
+.SocialList a:focus-visible {
+  outline: 3px solid var(--bg-btn);
   border-radius: 2px;
-
 }
 
 @media screen and (min-width: 600px) {
-
   .SocialList li {
     transition: var(--transition);
   }
 
   .SocialList li:hover {
-    transform: scale(1.2);
+    scale: 1.3;
   }
 
   .SocialList a {
     font-size: 2.7rem;
   }
-  
 }

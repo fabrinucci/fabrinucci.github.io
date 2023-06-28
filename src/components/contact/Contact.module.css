@@ -59,7 +59,7 @@
   color: var(--text-primary);
 }
 
-.ContactOptions a:focus {
+.ContactOptions a:focus-visible {
   outline: 2px solid var(--text-primary);
   border-radius: 2px;
 }
@@ -88,6 +88,7 @@
 .ContactForm input:focus,
 .ContactForm textarea:focus {
   outline: 3px solid var(--secondary-color);
+  outline-offset: -2px;
   background-color: #cfcdcd;
 }
 

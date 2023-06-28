@@ -117,9 +117,10 @@ p {
   transition: var(--transition);
 }
 
-.btn:focus {
-  outline: 2px solid var(--bg-btn);
-  border-radius: 2px;
+.btn:focus-visible {
+  outline: 3px solid var(--bg-btn);
+  outline-offset: -2px;
+  border-radius: 6px;
 }
 
 .btn-primary {

@@ -14,11 +14,14 @@
   margin-bottom: 50px;
 }
 
-.Footer ul a:focus {
-  outline: 2px solid var(--text-btn);
-  border-radius: 2px;
+.Footer ul a {
+  transition: var(--transition);
 }
 
+.Footer ul a:focus-visible {
+  outline: 3px solid var(--text-btn);
+  border-radius: 2px;
+}
 
 .FooterNav {
   display: flex;
@@ -47,6 +50,6 @@
   }
 
   .FooterNav a:hover {
-    border-bottom: 2px solid var(--text-btn)
+    border-bottom: 2px solid var(--text-btn);
   }
 }

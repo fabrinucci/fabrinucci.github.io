@@ -26,6 +26,12 @@
   transition: var(--transition);
 }
 
+.NavMenu a:focus-visible {
+  outline: 3px solid var(--white);
+  border-radius: 50%;
+  outline-offset: -1px;
+}
+
 .active {
   background-color: var(--secondary-color);
 }
