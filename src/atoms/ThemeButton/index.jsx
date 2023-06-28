@@ -4,7 +4,7 @@ import styles from './ThemeButton.module.css'
 
 export const ThemeButton = ({ theme, setTheme }) => {
   const switchTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light'
+    const newTheme = theme === 'dark' ? 'light' : 'dark'
     setTheme(newTheme)
   }
 
