@@ -63,7 +63,7 @@ export const projects = [
   {
     id: 3,
     title: 'Pokemon App',
-    img: 'https://i.imgur.com/Aq7BfmY.png',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688229100/Projects/pokemon-app.webp',
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app',
     demoUrl: 'https://pokemon-app-fn.vercel.app/',
     technologies: ['Next.js', 'TypeScript', 'NextUI']
@@ -78,17 +78,17 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Bata Bit',
-    img: 'https://i.imgur.com/36yMPCK.png',
-    gitUrl: 'https://github.com/fabrinucci/bata-bit',
-    demoUrl: 'https://bata-bit-bosti.netlify.app',
-    technologies: ['Html', 'Css']
+    title: 'Heroes App',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688229228/Projects/heroes-app.webp',
+    gitUrl: 'https://github.com/fabrinucci/react-heroes-app',
+    demoUrl: 'https://heroes-app-fn.netlify.app/',
+    technologies: ['React', 'Router Dom', 'Bootstrap']
   },
 
   {
     id: 6,
     title: 'Patient Manager',
-    img: 'https://i.imgur.com/oy7wkG0.png',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688230059/Projects/patient-manager.webp',
     gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
     demoUrl: 'https://app-citas-bosti.netlify.app/',
     technologies: ['React']
