@@ -27,7 +27,7 @@ export const Nav = () => {
               className={isActive === `#${name}` ? styles.active : ''}
               href={`#${name}`}
               rel='noopener noreferrer'
-              aria-label={text(translate)}
+              aria-label={`${text(translate)} section`}
             >
               <Icon className={styles.icon} />
             </a>

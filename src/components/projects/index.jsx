@@ -31,7 +31,7 @@ export const Projects = () => {
                     href={gitUrl}
                     target='_blank'
                     rel='noopener noreferrer'
-                    aria-label={text('projects.source')}
+                    aria-label={`${text('projects.source')} ${title}`}
                   >
                     GitHub
                   </a>
@@ -40,7 +40,7 @@ export const Projects = () => {
                     href={demoUrl}
                     target='_blank'
                     rel='noopener noreferrer'
-                    aria-label={text('projects.demo')}
+                    aria-label={`${text('projects.demo')} ${title}`}
                   >
                     Demo
                   </a>

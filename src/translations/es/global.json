@@ -35,6 +35,8 @@
     "contact": "Contáctame",
     "projects": "Proyectos",
     "translateEn": "Traducir a Inglés",
-    "translateEs": "Traducir a Español"
+    "translateEs": "Traducir a Español",
+    "themeDark": "Cambiar a tema oscuro",
+    "themeLight": "Cambiar a tema claro"
   }
 }

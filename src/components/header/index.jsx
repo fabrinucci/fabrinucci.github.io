@@ -4,7 +4,7 @@ import { TranslationButtons } from '../../atoms/TranslationButtons'
 import { ThemeButton } from '../../atoms/ThemeButton'
 
 import styles from './Header.module.css'
-import me from '../../assets/me.jpg'
+import me from '../../assets/me.webp'
 
 export const Header = ({ theme, setTheme }) => {
   const [text] = useTranslation('global')

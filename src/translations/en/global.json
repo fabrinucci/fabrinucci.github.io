@@ -35,6 +35,8 @@
     "contact": "Let's talk",
     "projects": "Projects",
     "translateEn": "Translate to English",
-    "translateEs": "Translate to Spanish"
+    "translateEs": "Translate to Spanish",
+    "themeDark": "Switch to dark theme",
+    "themeLight": "Switch to light theme"
   }
 }

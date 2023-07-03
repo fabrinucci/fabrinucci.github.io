@@ -51,7 +51,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: var(--secondary-color-b);
   transition: var(--transition);
 }
 
@@ -83,6 +83,7 @@
   transition: all 0.2s ease;
   resize: none;
   font-family: var(--primary-font);
+  font-weight: 500;
 }
 
 .ContactForm input:focus,
