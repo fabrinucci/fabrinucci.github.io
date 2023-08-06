@@ -104,8 +104,10 @@ p {
 }
 
 .container {
+  margin: 0 auto;
   margin-top: 50px;
-  padding: 20px;
+  padding-top: 20px;
+  width: 90%;
   text-align: center;
 }
 
@@ -158,8 +160,11 @@ p {
     font-size: 2rem;
   }
 
+  .container {
+    width: 85%;
+  }
+
   .btn {
-    padding: 20px 30px;
     transition: var(--transition);
   }
 
@@ -168,5 +173,11 @@ p {
     background-color: var(--bg-btn);
     border-color: var(--bg-btn);
     color: var(--text-btn);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 70%;
   }
 }

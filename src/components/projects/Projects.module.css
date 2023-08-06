@@ -10,17 +10,17 @@
 
 .Cards {
   display: grid;
-  gap: 50px;
-  width: 90%;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
 }
 
 .Cards article {
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  padding: 40px 20px;
   border-radius: 30px;
   transition: var(--transition);
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .Cards article:hover {
@@ -28,16 +28,24 @@
   background: transparent;
 }
 
-.Cards img {
-  height: 190px;
-  width: 300px;
-  max-width: 100%;
+.CardImg {
+  overflow: hidden;
+}
+
+.CardImg img {
+  height: 230px;
+  width: 100%;
   object-fit: cover;
-  border-radius: 30px;
+  border-radius: 30px 30px 0 0;
+}
+
+.CardInfo {
+  padding: 20px;
+  padding-bottom: 30px;
 }
 
 .CardInfo h3 {
-  margin: 10px 0;
+  margin-bottom: 10px;
   color: var(--text-primary);
 }
 
@@ -57,36 +65,12 @@
 
 .buttons {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   gap: 15px;
 }
 
-@media screen and (min-width: 620px) {
-  .Cards img {
-    height: 215px;
-    width: 360px;
-  }
-}
-
 @media screen and (min-width: 720px) {
-  .Cards {
-    grid-template-columns: repeat(2, 1fr);
-    width: 85%;
-    margin: 0 auto;
-    gap: 40px;
-  }
-
   .CardInfo .tech {
     font-size: 1.6rem;
-  }
-
-  .buttons {
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .Cards {
-    grid-template-columns: repeat(3, 1fr);
   }
 }

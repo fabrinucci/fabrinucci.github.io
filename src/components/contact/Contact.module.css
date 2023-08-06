@@ -11,7 +11,6 @@
 .ContactContainer {
   display: grid;
   gap: 50px;
-  width: 90%;
   margin: auto;
 }
 
@@ -115,7 +114,6 @@ textarea::placeholder {
   .ContactContainer {
     grid-template-columns: 35% 50%;
     gap: 15%;
-    width: 80%;
   }
 
   .ContactForm input,

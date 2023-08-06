@@ -37,7 +37,7 @@
 }
 
 .body {
-  margin-top: 20px;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -61,17 +61,7 @@
 
 @media screen and (min-width: 650px) {
   .Header {
-    width: 80%;
-  }
-
-  .body {
-    margin: 20px 0;
-  }
-}
-
-@media screen and (min-width: 650px) {
-  .Header {
-    width: 70%;
+    width: 85%;
   }
 
   .buttons {
@@ -84,6 +74,12 @@
 
   .about p {
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Header {
+    width: 70%;
   }
 }
 

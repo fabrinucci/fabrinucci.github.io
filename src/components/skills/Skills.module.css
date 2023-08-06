@@ -55,8 +55,6 @@
   }
 
   .Card {
-    width: 85%;
-    margin: 0 auto;
     padding: 50px;
   }
 }
@@ -73,7 +71,6 @@
   }
 
   .Card {
-    width: 70%;
     margin: 0 auto;
     padding: 70px;
   }

@@ -15,7 +15,9 @@ export const Projects = () => {
           const { id, title, img, gitUrl, demoUrl, technologies } = project
           return (
             <article key={id}>
-              <img src={img} alt={text(title)} />
+              <div className={styles.CardImg}>
+                <img src={img} alt={text(title)} />
+              </div>
               <div className={styles.CardInfo}>
                 <h3>{title}</h3>
                 <div className={styles.InfoTech}>

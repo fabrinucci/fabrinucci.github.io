@@ -47,7 +47,7 @@ export const projects = [
   {
     id: 1,
     title: 'Favlog Movies',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687048207/Projects/favlog-movies.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282656/Projects/favlog-movies.webp',
     gitUrl: 'https://github.com/fabrinucci/react-favlog-movies',
     demoUrl: '',
     technologies: ['React', 'TypeScript', 'Tailwindcss']
@@ -55,7 +55,7 @@ export const projects = [
   {
     id: 2,
     title: 'BosStream',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687027270/Projects/bos-stream.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/bosstream.webp',
     gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
     demoUrl: 'https://next-streamer.vercel.app/',
     technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
@@ -63,7 +63,7 @@ export const projects = [
   {
     id: 3,
     title: 'Pokemon App',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688229100/Projects/pokemon-app.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282923/Projects/pokemon-app.webp',
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app',
     demoUrl: 'https://pokemon-app-fn.vercel.app/',
     technologies: ['Next.js', 'TypeScript', 'NextUI']
@@ -71,7 +71,7 @@ export const projects = [
   {
     id: 4,
     title: 'Dev Finder',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1687568844/Projects/dev-finder.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/dev-finder.webp',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
     demoUrl: 'https://fabrinucci.github.io/react-dev-finder/',
     technologies: ['React', 'Material UI']
@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 5,
     title: 'Heroes App',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688229228/Projects/heroes-app.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/heroes-app.webp',
     gitUrl: 'https://github.com/fabrinucci/react-heroes-app',
     demoUrl: 'https://heroes-app-fn.netlify.app/',
     technologies: ['React', 'Router Dom', 'Bootstrap']
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 6,
     title: 'Patient Manager',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1688230059/Projects/patient-manager.webp',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282923/Projects/patient-manager.webp',
     gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
     demoUrl: 'https://app-citas-bosti.netlify.app/',
     technologies: ['React']
