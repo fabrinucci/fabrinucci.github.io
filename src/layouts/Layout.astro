@@ -1,0 +1,84 @@
+---
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+---
+
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+    <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+    <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+    <link rel='manifest' href='/site.webmanifest' />
+    <link rel='canonical' href='https://fabrinucci.github.io/' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'
+      rel='stylesheet'
+    />
+
+    <title>{title}</title>
+    <meta name='title' content='Fabrizio Nucci Portfolio: Web Developer' />
+    <meta
+      name='description'
+      content="Welcome to my portfolio! I'm Fabrizio Nucci, a passionate web developer with a creative approach. Explore my projects that demonstrate my ability to create functional and beautiful experiences. I'm ready to take your ideas to the next level."
+    />
+    <meta
+      name='keywords'
+      content='web developer, web design, portfolio, user interface, responsive design, creativity, react, '
+    />
+    <meta name='robots' content='index, follow' />
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name='language' content='English' />
+
+    <meta property='og:url' content='https://fabrinucci.github.io/' />
+    <meta property='og:type' content='website' />
+    <meta
+      property='og:title'
+      content='Fabrizio Nucci Portfolio: Web Developer'
+    />
+    <meta
+      property='og:description'
+      content="Welcome to my portfolio! I'm Fabrizio Nucci, a passionate web developer with a creative approach. Explore my projects that demonstrate my ability to create functional and beautiful experiences. I'm ready to take your ideas to the next level."
+    />
+    <meta property='og:site_name' content='fabrinucci.github.io' />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-dark: 49, 10, 101;
+    --accent-gradient: linear-gradient(
+      45deg,
+      rgb(var(--accent)),
+      rgb(var(--accent-light)) 30%,
+      white 60%
+    );
+  }
+  html {
+    font-family: system-ui, sans-serif;
+    background: #13151a;
+    background-size: 224px;
+  }
+  code {
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      Liberation Mono,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Courier New,
+      monospace;
+  }
+</style>
