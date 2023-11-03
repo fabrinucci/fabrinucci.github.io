@@ -1,0 +1,33 @@
+---
+import { contact } from '../data'
+import { getLangFromUrl, getTranslations } from '../i18n/utils'
+import styles from './Contact.module.css'
+
+const lang = getLangFromUrl(Astro.url)
+const contactTr = getTranslations(lang).contact
+---
+
+<section class={`${styles.Contact} container`} id='contact'>
+  <h4>{contactTr.subtitle}</h4>
+  <h2>{contactTr.title}</h2>
+  <div class={styles.ContactContainer}>
+    {
+      contact.map(({ Icon, title, href }) => (
+        <article>
+          <div class={styles.icon}>
+            <Icon />
+          </div>
+          <h4>{title}</h4>
+          <a
+            href={href}
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label={`${contactTr.sendMessage} ${title}`}
+          >
+            {contactTr.sendMessage}
+          </a>
+        </article>
+      ))
+    }
+  </div>
+</section>

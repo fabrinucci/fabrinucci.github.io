@@ -18,34 +18,25 @@ const whatsapp = '5493764853252'
 
 export const navigation = [
   {
-    id: 1,
     name: 'home',
-    Icon: IoHomeOutline,
-    translate: 'nav.home'
+    Icon: IoHomeOutline
   },
   {
-    id: 2,
     name: 'skills',
-    Icon: BiStar,
-    translate: 'nav.skills'
+    Icon: BiStar
   },
   {
-    id: 3,
     name: 'projects',
-    Icon: BiBook,
-    translate: 'nav.projects'
+    Icon: BiBook
   },
   {
-    id: 4,
     name: 'contact',
-    Icon: BiMessageDetail,
-    translate: 'nav.contact'
+    Icon: BiMessageDetail
   }
 ]
 
 export const projects = [
   {
-    id: 1,
     title: 'Favlog Movies',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282656/Projects/favlog-movies.webp',
     gitUrl: 'https://github.com/fabrinucci/react-favlog-movies',
@@ -53,7 +44,6 @@ export const projects = [
     technologies: ['React', 'TypeScript', 'Tailwindcss']
   },
   {
-    id: 2,
     title: 'BosStream',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/bosstream.webp',
     gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
@@ -61,7 +51,6 @@ export const projects = [
     technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
-    id: 3,
     title: 'Pokemon App',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282923/Projects/pokemon-app.webp',
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app',
@@ -69,7 +58,6 @@ export const projects = [
     technologies: ['Next.js', 'TypeScript', 'NextUI']
   },
   {
-    id: 4,
     title: 'Dev Finder',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/dev-finder.webp',
     gitUrl: 'https://github.com/fabrinucci/react-dev-finder',
@@ -77,7 +65,6 @@ export const projects = [
     technologies: ['React', 'Material UI']
   },
   {
-    id: 5,
     title: 'Heroes App',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/heroes-app.webp',
     gitUrl: 'https://github.com/fabrinucci/react-heroes-app',
@@ -86,7 +73,6 @@ export const projects = [
   },
 
   {
-    id: 6,
     title: 'Patient Manager',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282923/Projects/patient-manager.webp',
     gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
@@ -97,21 +83,18 @@ export const projects = [
 
 export const contact = [
   {
-    id: 1,
     Icon: RiMailLine,
     title: 'Email',
     contact: `${mail}`,
     href: `mailto:${mail}`
   },
   {
-    id: 2,
     Icon: RiTwitterFill,
     title: 'Twitter',
     contact: `@${twitter}`,
     href: `https://twitter.com/${twitter}`
   },
   {
-    id: 3,
     Icon: RiWhatsappLine,
     title: 'Whatsapp',
     contact: `${whatsapp}`,
@@ -121,42 +104,34 @@ export const contact = [
 
 export const skills = [
   {
-    id: 1,
     name: 'HTML',
     Icon: SiHtml5
   },
   {
-    id: 2,
     name: 'CSS',
     Icon: SiCss3
   },
   {
-    id: 3,
     name: 'JavaScript',
     Icon: SiJavascript
   },
   {
-    id: 4,
     name: 'React',
     Icon: SiReact
   },
   {
-    id: 5,
     name: 'TypeScript',
     Icon: SiTypescript
   },
   {
-    id: 6,
     name: 'Next.js',
     Icon: SiNextdotjs
   },
   {
-    id: 7,
     name: 'Node.js',
     Icon: SiNodedotjs
   },
   {
-    id: 8,
     name: 'Mongodb',
     Icon: SiMongodb
   }

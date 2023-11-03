@@ -59,32 +59,190 @@ const lang = getLangFromUrl(Astro.url)
     <slot />
   </body>
 </html>
+
 <style is:global>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
+    --primary-font: 'Montserrat', sans-serif;
+
+    --transition: all 0.3s ease-in;
+
+    --background: #ccccf1;
+    --primary-color: #9e9ecd;
+    --secondary-color: #3f41ae;
+    --secondary-color-b: #1e2082;
+
+    --text-primary: #100e31;
+    --text-secondary: #2c2b47;
+    --text-btn: #fff;
+
+    --bg-btn: #1a1b4b;
+
+    --black: #000;
+    --white: #f5f2f2;
   }
+
+  [data-theme='dark'] {
+    --background: #1a1b4b;
+    --primary-color: #292a73;
+    --secondary-color: #36ace3;
+    --secondary-color-b: #36ace3;
+
+    --text-primary: #c6c7ff;
+    --text-secondary: #a6a6c2;
+    --text-btn: #1a1b4b;
+
+    --bg-btn: #c6c7ff;
+  }
+
+  .theme-toggle i {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .theme-toggle {
+    text-align: center;
+  }
+
   html {
-    font-family: system-ui, sans-serif;
-    background: #13151a;
-    background-size: 224px;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
   }
-  code {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
-      monospace;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    font-family: var(--primary-font);
+    line-height: 1.8;
+    min-width: 320px;
+    background-color: var(--background);
+  }
+
+  .app {
+    /* background-color: var(--background); */
+    transition: all 0.5s cubic-bezier(0.48, 0.13, 0.44, 0.97);
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-primary);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    color: var(--text-primary);
+  }
+
+  .container {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .btn {
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: var(--transition);
+  }
+
+  .btn:focus-visible {
+    outline: 3px solid var(--bg-btn);
+    outline-offset: -2px;
+    border-radius: 6px;
+  }
+
+  .btn-primary {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--background);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    border-color: var(--secondary-color);
+    color: var(--text-primary);
+  }
+
+  @media screen and (min-width: 650px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    .container {
+      width: 85%;
+    }
+
+    .btn {
+      transition: var(--transition);
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover {
+      background-color: var(--bg-btn);
+      border-color: var(--bg-btn);
+      color: var(--text-btn);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 70%;
+    }
   }
 </style>
