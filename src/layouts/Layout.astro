@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions'
 import { getLangFromUrl } from '../i18n/utils'
 
 interface Props {
@@ -59,8 +58,6 @@ const lang = getLangFromUrl(Astro.url)
       content="Welcome to my portfolio! I'm Fabrizio Nucci, a passionate web developer with a creative approach. Explore my projects that demonstrate my ability to create functional and beautiful experiences. I'm ready to take your ideas to the next level."
     />
     <meta property='og:site_name' content='fabrinucci.github.io' />
-
-    <ViewTransitions />
   </head>
 
   <body>
@@ -131,7 +128,6 @@ const lang = getLangFromUrl(Astro.url)
       }
 
       .app {
-        /* background-color: var(--background); */
         transition: all 0.5s cubic-bezier(0.48, 0.13, 0.44, 0.97);
       }
 

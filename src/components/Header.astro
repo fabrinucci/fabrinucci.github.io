@@ -3,7 +3,9 @@ import { Image } from 'astro:assets'
 import { getLangFromUrl, getTranslations } from '../i18n/utils'
 import SocialMedia from '../atoms/Social.astro'
 import LanguagePicker from './LanguagePicker.astro'
+import ToggleThemeButton from '../atoms/ToggleThemeButton.astro'
 import styles from './Header.module.css'
+
 import me from '../assets/me.webp'
 import { SectionLink } from '../atoms/SectionLink'
 
@@ -15,6 +17,7 @@ const { cv, contact } = getTranslations(lang).buttons
 <header id='home' class={styles.Header}>
   <div class={styles.buttonsContainer}>
     <LanguagePicker />
+    <ToggleThemeButton />
   </div>
   <section class={styles.head}>
     <div class={styles.info}>
