@@ -2,8 +2,10 @@
 import { Image } from 'astro:assets'
 import { getLangFromUrl, getTranslations } from '../i18n/utils'
 import SocialMedia from '../atoms/Social.astro'
+import LanguagePicker from './LanguagePicker.astro'
 import styles from './Header.module.css'
 import me from '../assets/me.webp'
+import { SectionLink } from '../atoms/SectionLink'
 
 const lang = getLangFromUrl(Astro.url)
 const { about, description, name, work } = getTranslations(lang).header
@@ -11,6 +13,9 @@ const { cv, contact } = getTranslations(lang).buttons
 ---
 
 <header id='home' class={styles.Header}>
+  <div class={styles.buttonsContainer}>
+    <LanguagePicker />
+  </div>
   <section class={styles.head}>
     <div class={styles.info}>
       <h1>{name}</h1>
@@ -20,9 +25,9 @@ const { cv, contact } = getTranslations(lang).buttons
       <a class='btn btn-secondary' href='#'>
         {cv}
       </a>
-      <a id='nav-button' class='btn btn-primary' href='#contact'>
+      <SectionLink className='btn btn-primary' client:visible name='contact'>
         {contact}
-      </a>
+      </SectionLink>
     </div>
   </section>
   <section class={styles.body}>

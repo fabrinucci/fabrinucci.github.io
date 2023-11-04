@@ -18,12 +18,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.3.1",
     "@astrojs/react": "^3.0.4",
     "@emailjs/browser": "^3.10.0",
     "astro": "^3.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "typescript": "^5.2.2",
     "use-local-storage": "^2.3.6"
   },
   "devDependencies": {

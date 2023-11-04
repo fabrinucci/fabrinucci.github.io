@@ -1,7 +1,12 @@
-import { IoHomeOutline } from 'react-icons/io5'
-import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
-import { RiMailLine, RiTwitterFill, RiWhatsappLine } from 'react-icons/ri'
-import {
+import bi from 'react-icons/bi/index.js'
+import io5 from 'react-icons/io5/index.js'
+import ri from 'react-icons/ri/index.js'
+import si from 'react-icons/si/index.js'
+
+const { IoHomeOutline } = io5
+const { BiBook, BiMessageDetail, BiStar } = bi
+const { RiMailLine, RiTwitterFill, RiWhatsappLine } = ri
+const {
   SiCss3,
   SiHtml5,
   SiJavascript,
@@ -10,7 +15,7 @@ import {
   SiTypescript,
   SiReact,
   SiMongodb
-} from 'react-icons/si'
+} = si
 
 const mail = 'fabrinuccidev@gmail.com'
 const twitter = 'FabrizioDev'

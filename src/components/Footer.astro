@@ -3,6 +3,7 @@ import { navigation } from '../data'
 import { getLangFromUrl, getTranslations } from '../i18n/utils'
 import SocialMedia from '../atoms/Social.astro'
 import styles from './Footer.module.css'
+import { SectionLink } from '../atoms/SectionLink'
 
 const lang = getLangFromUrl(Astro.url)
 const nav = getTranslations(lang).nav
@@ -13,22 +14,15 @@ const getValue = (obj: typeof nav, key: keyof typeof nav) => {
 }
 ---
 
-<script src='../scripts/navRemoveHref.ts'></script>
-
 <footer class={styles.Footer}>
   <h2>Fabrizio Nucci</h2>
   <ul class={styles.FooterNav}>
     {
       navigation.map(({ name }) => (
         <li>
-          <a
-            id='nav-button'
-            href={`#${name}`}
-            rel='noopener noreferrer'
-            aria-label={`${name} section`}
-          >
+          <SectionLink client:visible name={name}>
             {getValue(nav, name as keyof typeof nav)}
-          </a>
+          </SectionLink>
         </li>
       ))
     }
