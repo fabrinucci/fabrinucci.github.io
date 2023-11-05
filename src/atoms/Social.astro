@@ -1,0 +1,39 @@
+---
+import fa from 'react-icons/fa/index.js'
+import styles from './SocialMedia.module.css'
+
+const { FaGithub, FaLinkedinIn, FaTwitter } = fa
+---
+
+<ul class={styles.SocialList}>
+  <li>
+    <a
+      href='https://github.com/fabrinucci'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='GitHub'
+    >
+      <FaGithub />
+    </a>
+  </li>
+  <li>
+    <a
+      href='https://www.linkedin.com/in/fabrinucci/'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='LinkedIn'
+    >
+      <FaLinkedinIn />
+    </a>
+  </li>
+  <li>
+    <a
+      href='https://twitter.com/FabrizioDev'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Twitter'
+    >
+      <FaTwitter />
+    </a>
+  </li>
+</ul>

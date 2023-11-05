@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets'
+import styles from './TranslationButtons.module.css'
+
+import en from '@assets/en.svg'
+import es from '@assets/es.svg'
+
+interface Props {
+  lang: string
+  href: string
+}
+
+const { lang, href } = Astro.props
+---
+
+<a class={styles.TranslationButton} href={href}>
+  <Image src={lang === 'en' ? en : es} alt='' />
+</a>

@@ -1,0 +1,25 @@
+---
+import { skills } from '../data'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
+import styles from './Skills.module.css'
+
+const lang = getLangFromUrl(Astro.url)
+const { title, subtitle } = getTranslations(lang).skills
+---
+
+<section class={`${styles.Skills} container`} id='skills'>
+  <h4>{subtitle}</h4>
+  <h2>{title}</h2>
+  <div class={styles.Card}>
+    <div class={styles.Content}>
+      {
+        skills.map(({ name, Icon }) => (
+          <article class={styles.Details}>
+            <Icon />
+            <h4>{name}</h4>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,55 @@
+---
+import { projects } from '../data'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
+import styles from './Projects.module.css'
+
+const lang = getLangFromUrl(Astro.url)
+const { demo, source, subtitle, title } = getTranslations(lang).projects
+---
+
+<section class={`${styles.Projects} container`} id='projects'>
+  <h4>{subtitle}</h4>
+  <h2>{title}</h2>
+  <div class={styles.Cards}>
+    {
+      projects.map((project) => {
+        const { title, img, gitUrl, demoUrl, technologies } = project
+        return (
+          <article>
+            <div class={styles.CardImg}>
+              <img src={img} alt={title} />
+            </div>
+            <div class={styles.CardInfo}>
+              <h3>{title}</h3>
+              <div class={styles.InfoTech}>
+                {technologies.map((tech) => (
+                  <p class={styles.tech}>{tech}</p>
+                ))}
+              </div>
+              <div class={styles.buttons}>
+                <a
+                  class='btn btn-secondary'
+                  href={gitUrl}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label={`${source} ${title}`}
+                >
+                  GitHub
+                </a>
+                <a
+                  class='btn btn-primary'
+                  href={demoUrl}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label={`${demo} ${title}`}
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        )
+      })
+    }
+  </div>
+</section>

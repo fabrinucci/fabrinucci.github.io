@@ -1,0 +1,31 @@
+---
+import { navigation } from '../data'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
+import SocialMedia from '@atoms/Social.astro'
+import { SectionLink } from '@atoms/SectionLink'
+import styles from './Footer.module.css'
+
+const lang = getLangFromUrl(Astro.url)
+const nav = getTranslations(lang).nav
+
+const getValue = (obj: typeof nav, key: keyof typeof nav) => {
+  if (obj.hasOwnProperty(key)) return obj[key]
+  return
+}
+---
+
+<footer class={styles.Footer}>
+  <h2>Fabrizio Nucci</h2>
+  <ul class={styles.FooterNav}>
+    {
+      navigation.map(({ name }) => (
+        <li>
+          <SectionLink client:visible name={name}>
+            {getValue(nav, name as keyof typeof nav)}
+          </SectionLink>
+        </li>
+      ))
+    }
+  </ul>
+  <SocialMedia />
+</footer>
