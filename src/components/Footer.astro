@@ -1,9 +1,9 @@
 ---
 import { navigation } from '../data'
-import { getLangFromUrl, getTranslations } from '../i18n/utils'
-import SocialMedia from '../atoms/Social.astro'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
+import SocialMedia from '@atoms/Social.astro'
+import { SectionLink } from '@atoms/SectionLink'
 import styles from './Footer.module.css'
-import { SectionLink } from '../atoms/SectionLink'
 
 const lang = getLangFromUrl(Astro.url)
 const nav = getTranslations(lang).nav

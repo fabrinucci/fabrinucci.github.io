@@ -1,13 +1,13 @@
 ---
 import { Image } from 'astro:assets'
-import { getLangFromUrl, getTranslations } from '../i18n/utils'
-import SocialMedia from '../atoms/Social.astro'
-import LanguagePicker from '../atoms/LanguagePicker.astro'
-import ToggleThemeButton from '../atoms/ToggleThemeButton.astro'
-import styles from './Header.module.css'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
+import SocialMedia from '@atoms/Social.astro'
+import LanguagePicker from '@atoms/LanguagePicker.astro'
+import ToggleThemeButton from '@atoms/ToggleThemeButton.astro'
+import { SectionLink } from '@atoms/SectionLink'
 
-import me from '../assets/me.webp'
-import { SectionLink } from '../atoms/SectionLink'
+import me from '@assets/me.webp'
+import styles from './Header.module.css'
 
 const lang = getLangFromUrl(Astro.url)
 const { about, description, name, work } = getTranslations(lang).header
