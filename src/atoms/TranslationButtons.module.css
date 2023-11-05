@@ -10,14 +10,14 @@
   display: block;
   cursor: pointer;
   border: none;
-  width: 50px;
-  height: 38px;
+  width: 45px;
+  height: 35px;
   background-color: transparent;
   transition: var(--transition);
 }
 
 .TranslationButton:hover {
-  scale: 1.2;
+  scale: 1.1;
 }
 
 .TranslationButton img {

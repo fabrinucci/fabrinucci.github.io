@@ -7,10 +7,18 @@ const lang = getLangFromUrl(Astro.url)
 const translatePath = useTranslatedPath(lang)
 ---
 
-<>
+<div class='language-picker'>
   {
     Object.entries(languages).map(([lang]) => (
       <TranslationButton lang={lang} href={translatePath('/', lang)} />
     ))
   }
-</>
+</div>
+
+<style>
+  .language-picker {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+</style>

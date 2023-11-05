@@ -14,7 +14,11 @@ const {
   SiNodedotjs,
   SiTypescript,
   SiReact,
-  SiMongodb
+  SiMongodb,
+  SiAstro,
+  SiTailwindcss,
+  SiGit,
+  SiMysql
 } = si
 
 const mail = 'fabrinuccidev@gmail.com'
@@ -117,6 +121,10 @@ export const skills = [
     Icon: SiCss3
   },
   {
+    name: 'Tailwindcss',
+    Icon: SiTailwindcss
+  },
+  {
     name: 'JavaScript',
     Icon: SiJavascript
   },
@@ -133,11 +141,23 @@ export const skills = [
     Icon: SiNextdotjs
   },
   {
+    name: 'Astro',
+    Icon: SiAstro
+  },
+  {
     name: 'Node.js',
     Icon: SiNodedotjs
   },
   {
     name: 'Mongodb',
     Icon: SiMongodb
+  },
+  {
+    name: 'MySQL',
+    Icon: SiMysql
+  },
+  {
+    name: 'Git',
+    Icon: SiGit
   }
 ]
