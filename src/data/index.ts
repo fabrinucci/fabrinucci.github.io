@@ -53,11 +53,11 @@ export const projects = [
     technologies: ['React', 'TypeScript', 'Tailwindcss']
   },
   {
-    title: 'BosStream',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/bosstream.webp',
-    gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
-    demoUrl: 'https://next-streamer.vercel.app/',
-    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
+    title: 'Shopi',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1699289914/Projects/shopi.webp',
+    gitUrl: 'https://github.com/fabrinucci/react-shopi',
+    demoUrl: 'https://shopi-lovat.vercel.app/',
+    technologies: ['React', 'TypeScript', 'Tailwindcss']
   },
   {
     title: 'Pokemon App',
@@ -65,6 +65,13 @@ export const projects = [
     gitUrl: 'https://github.com/fabrinucci/next-pokemon-app',
     demoUrl: 'https://pokemon-app-fn.vercel.app/',
     technologies: ['Next.js', 'TypeScript', 'NextUI']
+  },
+  {
+    title: 'BosStream',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/bosstream.webp',
+    gitUrl: 'https://github.com/fabrinucci/next-streamer-app',
+    demoUrl: 'https://next-streamer.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
     title: 'Dev Finder',
@@ -79,14 +86,6 @@ export const projects = [
     gitUrl: 'https://github.com/fabrinucci/react-heroes-app',
     demoUrl: 'https://heroes-app-fn.netlify.app/',
     technologies: ['React', 'Router Dom', 'Bootstrap']
-  },
-
-  {
-    title: 'Patient Manager',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282923/Projects/patient-manager.webp',
-    gitUrl: 'https://github.com/fabrinucci/app-citas-mascotas-react',
-    demoUrl: 'https://app-citas-bosti.netlify.app/',
-    technologies: ['React']
   }
 ]
 
