@@ -23,7 +23,7 @@ export const SectionLink = ({ children, name, className }: Props) => {
       className={className || ''}
       onClick={(event) => handleNavigation(event, name)}
       href={`#${name}`}
-      aria-label={`${name} section`}
+      aria-label={name}
     >
       {children}
     </a>

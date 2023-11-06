@@ -1,6 +1,10 @@
 ---
 import { Image } from 'astro:assets'
+import { getLangFromUrl, getTranslations } from '@i18n/utils'
 import styles from './TranslationButtons.module.css'
+
+const langi18n = getLangFromUrl(Astro.url)
+const { translateEn, translateEs } = getTranslations(langi18n).buttons
 
 import en from '@assets/en.svg'
 import es from '@assets/es.svg'
@@ -13,6 +17,10 @@ interface Props {
 const { lang, href } = Astro.props
 ---
 
-<a class={styles.TranslationButton} href={href}>
+<a
+  class={styles.TranslationButton}
+  href={href}
+  aria-label={lang === 'en' ? translateEn : translateEs}
+>
   <Image src={lang === 'en' ? en : es} alt='' />
 </a>

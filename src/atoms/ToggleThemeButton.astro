@@ -2,7 +2,7 @@
 
 ---
 
-<button class='themeToggle'>
+<button id='themeToggleButton' class='themeToggle'>
   <svg width='30px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
     <path
       class='sun'
@@ -52,13 +52,20 @@
   document.documentElement.setAttribute('data-theme', theme)
   window.localStorage.setItem('theme', theme)
 
+  const themeButton = document.querySelector('#themeToggleButton')
+  themeButton.ariaLabel = `${
+    theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
+  }`
+
   const handleToggleClick = () => {
     const element = document.documentElement
     const isDark = element.getAttribute('data-theme') === 'dark'
     if (isDark) {
       element.setAttribute('data-theme', 'light')
+      themeButton.ariaLabel = 'Switch to dark theme'
     } else {
       element.setAttribute('data-theme', 'dark')
+      themeButton.ariaLabel = 'Switch to light theme'
     }
 
     localStorage.setItem('theme', isDark ? 'light' : 'dark')

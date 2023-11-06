@@ -49,7 +49,7 @@ export const projects = [
     title: 'Favlog Movies',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282656/Projects/favlog-movies.webp',
     gitUrl: 'https://github.com/fabrinucci/react-favlog-movies',
-    demoUrl: '',
+    demoUrl: 'https://fabrinucci.github.io/',
     technologies: ['React', 'TypeScript', 'Tailwindcss']
   },
   {

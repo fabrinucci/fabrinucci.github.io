@@ -28,8 +28,8 @@ export const ui = {
     projects: {
       title: 'Projects',
       subtitle: 'My recent works',
-      demo: 'View project demo',
-      source: 'View source code'
+      demo: 'Demo project',
+      source: 'GitHub source code'
     },
     contact: {
       title: 'Contact',
@@ -72,8 +72,8 @@ export const ui = {
     projects: {
       title: 'Proyectos',
       subtitle: 'Mis trabajos recientes',
-      demo: 'Ver demo del proyecto',
-      source: 'Ver código fuente'
+      demo: 'Demo del proyecto',
+      source: 'GitHub código fuente'
     },
     contact: {
       title: 'Contacto',

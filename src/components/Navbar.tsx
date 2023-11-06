@@ -27,6 +27,7 @@ export const Navbar = () => {
               className={isActive === `#${name}` ? styles.active : ''}
               href={`#${name}`}
               rel='noopener noreferrer'
+              aria-label={name}
             >
               <Icon className={styles.icon} />
             </a>
