@@ -1,6 +1,6 @@
 {
   "name": "fabrinucci-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Personal Portfolio",
   "author": "Fabrizio Nucci",
   "license": "MIT",
@@ -12,7 +12,6 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"

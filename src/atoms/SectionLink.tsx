@@ -3,10 +3,11 @@ import type { MouseEvent, ReactNode } from 'react'
 interface Props {
   children: ReactNode
   name: string
+  href: string
   className?: string
 }
 
-export const SectionLink = ({ children, name, className }: Props) => {
+export const SectionLink = ({ children, name, className, href }: Props) => {
   const handleNavigation = (
     event: MouseEvent<HTMLAnchorElement>,
     sectionName: string
@@ -21,8 +22,8 @@ export const SectionLink = ({ children, name, className }: Props) => {
   return (
     <a
       className={className || ''}
-      onClick={(event) => handleNavigation(event, name)}
-      href={`#${name}`}
+      onClick={(event) => handleNavigation(event, href)}
+      href={`#${href}`}
       aria-label={name}
     >
       {children}

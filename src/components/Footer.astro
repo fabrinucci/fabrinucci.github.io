@@ -20,7 +20,7 @@ const getValue = (obj: typeof nav, key: keyof typeof nav) => {
     {
       navigation.map(({ name }) => (
         <li>
-          <SectionLink client:visible name={name}>
+          <SectionLink name={name} href={name} client:visible>
             {getValue(nav, name as keyof typeof nav)}
           </SectionLink>
         </li>

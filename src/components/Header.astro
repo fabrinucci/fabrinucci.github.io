@@ -28,7 +28,12 @@ const { cv, contact } = getTranslations(lang).buttons
       <a class='btn btn-secondary' href='#'>
         {cv}
       </a>
-      <SectionLink className='btn btn-primary' name={contact} client:visible>
+      <SectionLink
+        className='btn btn-primary'
+        name={contact}
+        href='contact'
+        client:visible
+      >
         {contact}
       </SectionLink>
     </div>
