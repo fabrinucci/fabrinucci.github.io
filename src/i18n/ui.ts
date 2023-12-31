@@ -13,7 +13,7 @@ export const ui = {
       work: 'Web Developer',
       about: 'About me',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia quis sunt unde hic repellat consequuntur quae commodi ad ipsum iure ex iste, minus accusantium quisquam inventore nobis corrupti tenetur!'
+        "I'm a web development lover and my goal is to create products that offer great experiences with attractive and high quality designs. Always ready to solve client's problems and face challenges that allow me to grow in the industry."
     },
     nav: {
       home: 'Home',
@@ -57,7 +57,7 @@ export const ui = {
       work: 'Desarrollador Web',
       about: 'Sobre mí',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia quis sunt unde hic repellat consequuntur quae commodi ad ipsum iure ex iste, minus accusantium quisquam inventore nobis corrupti tenetur!'
+        'Soy un amante del desarrollo web y mi objetivo es crear productos que ofrezcan grandes experiencias con diseños atractivos y de alta calidad. Siempre estoy dispuesto a solucionar las problemáticas del cliente y enfrentarme a desafíos que me permitan crecer en la industria.'
     },
     nav: {
       home: 'Inicio',
