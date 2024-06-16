@@ -49,8 +49,8 @@ export const projects = [
     title: 'Favlog Movies',
     img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282656/Projects/favlog-movies.webp',
     gitUrl: 'https://github.com/fabrinucci/react-favlog-movies',
-    demoUrl: 'https://fabrinucci.github.io/',
-    technologies: ['React', 'TypeScript', 'Tailwindcss']
+    demoUrl: 'https://favlog-movies.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
     title: 'Shopi',
@@ -81,11 +81,11 @@ export const projects = [
     technologies: ['React', 'Material UI']
   },
   {
-    title: 'Heroes App',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1691282924/Projects/heroes-app.webp',
-    gitUrl: 'https://github.com/fabrinucci/react-heroes-app',
-    demoUrl: 'https://heroes-app-fn.netlify.app/',
-    technologies: ['React', 'Router Dom', 'Bootstrap']
+    title: 'InmoBO',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1718566080/Projects/inmobo.webp',
+    gitUrl: 'https://github.com/fabrinucci/inmobo-client',
+    demoUrl: 'https://inmobo.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   }
 ]
 
