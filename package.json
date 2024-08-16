@@ -13,8 +13,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
+    "start": "astro preview",
+    "check": "astro check",
     "test": "vitest run"
   },
   "dependencies": {
