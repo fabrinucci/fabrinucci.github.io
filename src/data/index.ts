@@ -1,12 +1,7 @@
-import bi from 'react-icons/bi/index.js'
-import io5 from 'react-icons/io5/index.js'
-import ri from 'react-icons/ri/index.js'
-import si from 'react-icons/si/index.js'
-
-const { IoHomeOutline } = io5
-const { BiBook, BiMessageDetail, BiStar } = bi
-const { RiMailLine, RiTwitterFill, RiWhatsappLine } = ri
-const {
+import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
+import { IoHomeOutline } from 'react-icons/io5'
+import { RiMailLine, RiTwitterXFill, RiWhatsappLine } from 'react-icons/ri'
+import {
   SiCss3,
   SiHtml5,
   SiJavascript,
@@ -19,7 +14,7 @@ const {
   SiTailwindcss,
   SiGit,
   SiMysql
-} = si
+} from 'react-icons/si'
 
 const mail = 'fabrinuccidev@gmail.com'
 const twitter = 'FabrizioDev'
@@ -97,10 +92,10 @@ export const contact = [
     href: `mailto:${mail}`
   },
   {
-    Icon: RiTwitterFill,
+    Icon: RiTwitterXFill,
     title: 'Twitter',
     contact: `@${twitter}`,
-    href: `https://twitter.com/${twitter}`
+    href: `https://x.com/${twitter}`
   },
   {
     Icon: RiWhatsappLine,
