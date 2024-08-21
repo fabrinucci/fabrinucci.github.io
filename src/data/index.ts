@@ -1,6 +1,6 @@
 import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
 import { IoHomeOutline } from 'react-icons/io5'
-import { RiMailLine, RiTwitterXFill, RiWhatsappLine } from 'react-icons/ri'
+import { RiLinkedinFill, RiMailLine, RiTwitterXFill } from 'react-icons/ri'
 import {
   SiCss3,
   SiHtml5,
@@ -18,7 +18,7 @@ import {
 
 const mail = 'fabrinuccidev@gmail.com'
 const twitter = 'FabrizioDev'
-const whatsapp = '5493764853252'
+const linkedin = 'fabrinucci'
 
 export const navigation = [
   {
@@ -98,10 +98,10 @@ export const contact = [
     href: `https://x.com/${twitter}`
   },
   {
-    Icon: RiWhatsappLine,
-    title: 'Whatsapp',
-    contact: `${whatsapp}`,
-    href: `https://wa.me/${whatsapp}`
+    Icon: RiLinkedinFill,
+    title: 'LinkedIn',
+    contact: `${linkedin}`,
+    href: `https://www.linkedin.com/in/${linkedin}`
   }
 ]
 
