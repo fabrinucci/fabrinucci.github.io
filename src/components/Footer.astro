@@ -15,8 +15,8 @@ const getValue = (obj: typeof nav, key: keyof typeof nav) => {
 ---
 
 <footer class={styles.Footer}>
-  <h2>Fabrizio Nucci</h2>
-  <ul class={styles.FooterNav}>
+  <h2 data-testid="footer-title">Fabrizio Nucci</h2>
+  <ul class={styles.FooterNav} data-testid="footer-links">
     {
       navigation.map(({ name }) => (
         <li>

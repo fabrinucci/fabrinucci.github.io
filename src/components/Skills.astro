@@ -8,15 +8,15 @@ const { title, subtitle } = getTranslations(lang).skills
 ---
 
 <section class={`${styles.Skills} container`} id='skills'>
-  <h4>{subtitle}</h4>
-  <h2>{title}</h2>
-  <div class={styles.Card}>
+  <h4 data-testid="skills-subtitle">{subtitle}</h4>
+  <h2 data-testid="skills-title">{title}</h2>
+  <div class={styles.Card} data-testid="skills-list">
     <div class={styles.Content}>
       {
         skills.map(({ name, Icon }) => (
           <article class={styles.Details}>
-            <Icon />
-            <h4>{name}</h4>
+            <Icon role='img' title={name} />
+            <h3>{name}</h3>
           </article>
         ))
       }

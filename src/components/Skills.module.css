@@ -35,7 +35,9 @@
   margin-bottom: 10px;
 }
 
-.Details h4 {
+.Details h3 {
+  font-size: 1.8rem;
+  color: var(--text-secondary);
   line-height: normal;
 }
 
@@ -56,6 +58,10 @@
 
   .Card {
     padding: 50px;
+  }
+
+  .Details h3 {
+    font-size: 2.2rem;
   }
 }
 
