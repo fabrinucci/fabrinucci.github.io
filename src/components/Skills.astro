@@ -15,8 +15,8 @@ const { title, subtitle } = getTranslations(lang).skills
       {
         skills.map(({ name, Icon }) => (
           <article class={styles.Details}>
-            <Icon />
-            <h4>{name}</h4>
+            <Icon role='img' title={name} />
+            <h3>{name}</h3>
           </article>
         ))
       }
