@@ -8,16 +8,16 @@ const contactTr = getTranslations(lang).contact
 ---
 
 <section class={`${styles.Contact} container`} id='contact'>
-  <h4>{contactTr.subtitle}</h4>
-  <h2>{contactTr.title}</h2>
-  <div class={styles.ContactContainer}>
+  <h4 data-testid="contact-subtitle">{contactTr.subtitle}</h4>
+  <h2 data-testid="contact-title">{contactTr.title}</h2>
+  <div class={styles.ContactContainer} data-testid="contact-list">
     {
       contact.map(({ Icon, title, href }) => (
         <article>
           <div class={styles.icon}>
             <Icon />
           </div>
-          <h4>{title}</h4>
+          <h3>{title}</h3>
           <a
             href={href}
             target='_blank'

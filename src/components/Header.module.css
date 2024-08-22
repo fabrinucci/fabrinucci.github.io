@@ -17,6 +17,11 @@
   margin-top: 80px;
 }
 
+.head h2 {
+  font-size: 2.2rem;
+}
+
+.head h2,
 .head h3 {
   color: var(--text-secondary);
 }
@@ -62,6 +67,10 @@
 @media screen and (min-width: 650px) {
   .Header {
     width: 85%;
+  }
+
+  .head h2 {
+    font-size: 2.7rem;
   }
 
   .buttons {

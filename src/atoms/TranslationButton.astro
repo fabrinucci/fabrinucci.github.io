@@ -21,6 +21,7 @@ const { lang, href } = Astro.props
   class={styles.TranslationButton}
   href={href}
   aria-label={lang === 'en' ? translateEn : translateEs}
+  data-testid={lang === 'en' ? 'translate-en' : 'translate-es'}
 >
   <Image src={lang === 'en' ? en : es} alt='' />
 </a>

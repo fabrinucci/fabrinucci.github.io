@@ -22,7 +22,7 @@
   transition: var(--transition);
 }
 
-.ContactContainer article h4,
+.ContactContainer article h3,
 .ContactContainer article svg {
   color: var(--text-primary);
 }
@@ -40,7 +40,8 @@
   margin: 0;
 }
 
-.ContactContainer h4 {
+.ContactContainer h3 {
+  font-size: 1.8rem;
   color: var(--text-primary);
   margin-bottom: 10px;
 }
@@ -80,9 +81,13 @@ textarea::placeholder {
   .ContactContainer {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .ContactContainer h3 {
+    font-size: 2.2rem;
+  }
 }
 @media screen and (min-width: 1000px) {
-  .ContactContainer h4,
+  .ContactContainer h3,
   .icon {
     margin-bottom: 10px;
   }
