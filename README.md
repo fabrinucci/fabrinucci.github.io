@@ -1,4 +1,4 @@
-![Porfolio image](https://res.cloudinary.com/bosti-web/image/upload/v1699196076/Me/portfolio.png)
+![Porfolio image](https://res.cloudinary.com/bosti-web/image/upload/v1742579976/Me/portfolio_bg.jpg)
 
 <h1 align="center">Welcome to My Portfolio 👋</h1>
 <p>
