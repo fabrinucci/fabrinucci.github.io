@@ -1,5 +1,6 @@
 import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
 import { IoHomeOutline } from 'react-icons/io5'
+import { PiTestTubeFill } from 'react-icons/pi'
 import { RiLinkedinFill, RiMailLine, RiTwitterXFill } from 'react-icons/ri'
 import {
   SiCss3,
@@ -48,11 +49,11 @@ export const projects = [
     technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
-    title: 'Shopi',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1699289914/Projects/shopi.webp',
-    gitUrl: 'https://github.com/fabrinucci/react-shopi',
-    demoUrl: 'https://shopi-lovat.vercel.app/',
-    technologies: ['React', 'TypeScript', 'Tailwindcss']
+    title: 'InmoBO',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1718566080/Projects/inmobo.webp',
+    gitUrl: 'https://github.com/fabrinucci/inmobo-client',
+    demoUrl: 'https://inmobo.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
     title: 'Pokemon App',
@@ -76,12 +77,12 @@ export const projects = [
     technologies: ['React', 'Material UI']
   },
   {
-    title: 'InmoBO',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1718566080/Projects/inmobo.webp',
-    gitUrl: 'https://github.com/fabrinucci/inmobo-client',
-    demoUrl: 'https://inmobo.vercel.app/',
-    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
-  }
+    title: 'Shopi',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1699289914/Projects/shopi.webp',
+    gitUrl: 'https://github.com/fabrinucci/react-shopi',
+    demoUrl: 'https://shopi-lovat.vercel.app/',
+    technologies: ['React', 'TypeScript', 'Tailwindcss']
+  },
 ]
 
 export const contact = [
@@ -115,7 +116,7 @@ export const skills = [
     Icon: SiCss3
   },
   {
-    name: 'Tailwindcss',
+    name: 'Tailwind CSS',
     Icon: SiTailwindcss
   },
   {
@@ -139,16 +140,16 @@ export const skills = [
     Icon: SiAstro
   },
   {
+    name: 'Testing',
+    Icon: PiTestTubeFill
+  },
+  {
     name: 'Node.js',
     Icon: SiNodedotjs
   },
   {
-    name: 'Mongodb',
+    name: 'MongoDB',
     Icon: SiMongodb
-  },
-  {
-    name: 'MySQL',
-    Icon: SiMysql
   },
   {
     name: 'Git',

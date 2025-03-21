@@ -1,8 +1,8 @@
-![Porfolio image](https://res.cloudinary.com/bosti-web/image/upload/v1699196076/Me/portfolio.png)
+![Porfolio image](https://res.cloudinary.com/bosti-web/image/upload/v1742579976/Me/portfolio_bg.jpg)
 
 <h1 align="center">Welcome to My Portfolio 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/fabrinucci/fabrinucci.github.io#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
