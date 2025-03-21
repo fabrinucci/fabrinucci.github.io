@@ -13,7 +13,7 @@ export const ui = {
       work: 'Web Developer',
       about: 'About me',
       description:
-        "I'm a web development lover and my goal is to create products that offer great experiences with attractive and high quality designs. Always ready to solve client's problems and face challenges that allow me to grow in the industry."
+        "I am a web development lover and enjoy creating functional products with attractive and high quality designs. My priority is to understand the client's needs and offer solutions that make a difference. For me, every challenge is an opportunity to learn and improve in this industry that inspires me."
     },
     nav: {
       home: 'Home',
@@ -57,7 +57,7 @@ export const ui = {
       work: 'Desarrollador Web',
       about: 'Sobre mí',
       description:
-        'Soy un amante del desarrollo web y mi objetivo es crear productos que ofrezcan grandes experiencias con diseños atractivos y de alta calidad. Siempre estoy dispuesto a solucionar las problemáticas del cliente y enfrentarme a desafíos que me permitan crecer en la industria.'
+        'Soy un amante del desarrollo web y disfruto creando productos funcionales con diseños atractivos y de alta calidad. Mi prioridad es entender las necesidades del cliente y ofrecer soluciones que hagan la diferencia. Para mí, cada desafío es una oportunidad para aprender y mejorar en esta industria que me inspira.'
     },
     nav: {
       home: 'Inicio',
