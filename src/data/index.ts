@@ -48,11 +48,11 @@ export const projects = [
     technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
-    title: 'Shopi',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1699289914/Projects/shopi.webp',
-    gitUrl: 'https://github.com/fabrinucci/react-shopi',
-    demoUrl: 'https://shopi-lovat.vercel.app/',
-    technologies: ['React', 'TypeScript', 'Tailwindcss']
+    title: 'InmoBO',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1718566080/Projects/inmobo.webp',
+    gitUrl: 'https://github.com/fabrinucci/inmobo-client',
+    demoUrl: 'https://inmobo.vercel.app/',
+    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
   },
   {
     title: 'Pokemon App',
@@ -76,12 +76,12 @@ export const projects = [
     technologies: ['React', 'Material UI']
   },
   {
-    title: 'InmoBO',
-    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1718566080/Projects/inmobo.webp',
-    gitUrl: 'https://github.com/fabrinucci/inmobo-client',
-    demoUrl: 'https://inmobo.vercel.app/',
-    technologies: ['Next.js', 'TypeScript', 'Tailwindcss']
-  }
+    title: 'Shopi',
+    img: 'https://res.cloudinary.com/bosti-web/image/upload/v1699289914/Projects/shopi.webp',
+    gitUrl: 'https://github.com/fabrinucci/react-shopi',
+    demoUrl: 'https://shopi-lovat.vercel.app/',
+    technologies: ['React', 'TypeScript', 'Tailwindcss']
+  },
 ]
 
 export const contact = [
