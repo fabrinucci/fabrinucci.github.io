@@ -1,5 +1,6 @@
 import { BiBook, BiMessageDetail, BiStar } from 'react-icons/bi'
 import { IoHomeOutline } from 'react-icons/io5'
+import { PiTestTubeFill } from 'react-icons/pi'
 import { RiLinkedinFill, RiMailLine, RiTwitterXFill } from 'react-icons/ri'
 import {
   SiCss3,
@@ -115,7 +116,7 @@ export const skills = [
     Icon: SiCss3
   },
   {
-    name: 'Tailwindcss',
+    name: 'Tailwind CSS',
     Icon: SiTailwindcss
   },
   {
@@ -139,16 +140,16 @@ export const skills = [
     Icon: SiAstro
   },
   {
+    name: 'Testing',
+    Icon: PiTestTubeFill
+  },
+  {
     name: 'Node.js',
     Icon: SiNodedotjs
   },
   {
-    name: 'Mongodb',
+    name: 'MongoDB',
     Icon: SiMongodb
-  },
-  {
-    name: 'MySQL',
-    Icon: SiMysql
   },
   {
     name: 'Git',
