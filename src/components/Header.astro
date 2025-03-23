@@ -21,11 +21,11 @@ const { cv, contact } = getTranslations(lang).buttons
   </div>
   <section class={styles.head}>
     <div class={styles.info}>
-      <h1 data-testid="name-title">{name}</h1>
-      <h2 data-testid="job-title">{work}</h2>
+      <h1 data-testid='name-title'>{name}</h1>
+      <h2 data-testid='job-title'>{work}</h2>
     </div>
     <div class={styles.buttons}>
-      <a class='btn btn-secondary' href='#' aria-label={cv}>
+      <a class='btn btn-secondary' href='/CV-Fabrizio_Nucci.pdf' download='CV-Fabrizio_Nucci.pdf' target='_blank' aria-label={cv}>
         {cv}
       </a>
       <SectionLink
@@ -41,12 +41,12 @@ const { cv, contact } = getTranslations(lang).buttons
   <section class={styles.body}>
     <div class={styles.figureContainer}>
       <figure>
-        <Image src={me} alt='Fabrizio Nucci' data-testid="profile-image" />
+        <Image src={me} alt='Fabrizio Nucci' data-testid='profile-image' />
       </figure>
     </div>
     <div class={styles.about}>
-      <h3 data-testid="about-title">{about}</h3>
-      <p data-testid="about-description">{description}</p>
+      <h3 data-testid='about-title'>{about}</h3>
+      <p data-testid='about-description'>{description}</p>
     </div>
   </section>
   <SocialMedia />

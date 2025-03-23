@@ -8,14 +8,14 @@ const { demo, source, subtitle, title } = getTranslations(lang).projects
 ---
 
 <section class={`${styles.Projects} container`} id='projects'>
-  <h4 data-testid="projects-subtitle">{subtitle}</h4>
-  <h2 data-testid="projects-title">{title}</h2>
-  <div class={styles.Cards} data-testid="projects-list">
+  <h4 data-testid='projects-subtitle'>{subtitle}</h4>
+  <h2 data-testid='projects-title'>{title}</h2>
+  <div class={styles.Cards} data-testid='projects-list'>
     {
       projects.map((project) => {
         const { title, img, gitUrl, demoUrl, technologies } = project
         return (
-          <article data-testid="project-card">
+          <article data-testid='project-card'>
             <div class={styles.CardImg}>
               <img src={img} alt={title} />
             </div>
